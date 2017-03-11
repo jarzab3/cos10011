@@ -1,0 +1,13 @@
+
+body {
+    background-color: white;
+    margin: 30px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+p_text {
+    display:inline-block;
+}

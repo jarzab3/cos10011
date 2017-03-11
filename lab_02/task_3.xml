@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 <head>
 
     <meta charset="utf-8" />
@@ -31,7 +31,7 @@
 
 <br/>
 
-<form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+<form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
 
     <fieldset>
         <legend>Student Details</legend>

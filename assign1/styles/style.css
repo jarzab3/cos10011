@@ -1,0 +1,17 @@
+/*
+filename: [assing1]
+author: [Adam Jarzebak]
+created: [10/03/17]
+last modified: [10/03/17]
+description: [html files it refers to index html file for assignment 1]
+*/
+
+
+body {
+    background-color: white;
+    margin: 30px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
