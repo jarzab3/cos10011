@@ -7,6 +7,7 @@
     <meta name="author" content="Adam Jarzebak"  />
 
     <link rel = "stylesheet" type = "text/css" href = "resources/css/enquire_style.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "resources/css/nav_style.css"/>
 
     <title>Assignment_1 - The enquire website</title>
 
@@ -20,36 +21,177 @@
         <table width="100%">
 
             <td class="nav_td">
-        <a href="index.html">Main</a>
+                <a href="index.html">Main</a>
             </td>
 
             <td class="nav_td">
-        <a href="enquire.html">Enquire</a>
+                <a href="enquire.html">Enquire</a>
             </td>
 
             <td class="nav_td">
-        <a href="product.html">Product</a>
+                <a href="product.html">Product</a>
             </td>
 
             <td class="nav_td">
-        <a href="about.html">About</a>
+                <a href="about.html">About</a>
             </td>
-</table>
+        </table>
     </div>
     <br/>
     <hr />
 </header>
 
 
-<div id="image_div">
+<!--<div id="image_div">-->
 
-<a  href="index.html">
+<!--<a  href="index.html">-->
 
-    <img class="picture" src="resources/images/construction.PNG" alt="Website under construction" title="construction image"  style="transform: scale(1.0, 1.0);"/>
+<!--<img class="picture" src="resources/images/construction.PNG" alt="Website under construction" title="construction image"  style="transform: scale(1.0, 1.0);"/>-->
 
-</a>
+<!--</a>-->
 
-</div>
+<!--</div>-->
+
+<section>
+
+    <h2>Make an enquiry</h2>
+
+    <div class="div_form">
+
+        <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+
+            <label for="fname">First Name</label>
+            <!--<input type="text" id="fname" name="firstname" placeholder="Your name..">-->
+            <input type="text" name= "fname" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+
+
+            <label for="lname">Last Name</label>
+            <input type="text" name= "lname" id="lname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+            <!--<input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
+
+            <label for="email">Email</label>
+            <input type="email" name= "email" id="email" required="required"/>
+
+
+            <br/>
+            <br/>
+
+            <div id="fieldset_label">
+                <label > Address</label>
+            </div>
+
+            <fieldset>
+                <!--<legend id="l_address">Address</legend>-->
+
+                <label for="saddress">Street address</label>
+                <input type="text" name= "saddress" id="saddress" maxlength="40" required="required"/>
+
+                <label for="suburb">Suburb/town</label>
+                <input type="text" name= "suburb" id="suburb" maxlength="20" required="required"/>
+
+
+                <label for="state">State</label>
+                <select id="state" name="state" required="required">
+                    <option value="VIC">VIC</option>
+                    <option value="NSW">NSW</option>
+                    <option value="QLD">QLD</option>
+                    <option value="NT">NT</option>
+                    <option value="WA">WA</option>
+                    <option value="SA">SA</option>
+                    <option value="TAS">TAS</option>
+                    <option value="ACT">ACT</option>
+                </select>
+
+                <label for="postcode">Postcode</label>
+                <input type="text" name= "postcode" id="postcode" maxlength="4" pattern="\d{4}" required="required" placeholder="Postcode"/>
+
+            </fieldset>
+
+            <br/>
+            <br/>
+
+            <label>Preferred contact</label>
+
+            <fieldset>
+
+                <p class="align_center">
+                    <label for="pc1">Email</label>
+                    <input type="radio" id="pc1" name="pc1" required="required" value="email"/>
+                    <span>
+            <label for="pc2">Post</label>
+                <input type="radio" id="pc2" name="pc2" value="post"/>
+                </span>
+
+                    <span>
+            <label for="pc3">Phone</label>
+                <input type="radio" id="pc3" name="pc3" value="phone"/>
+                </span>
+                </p>
+
+            </fieldset>
+
+            <br/>
+            <br/>
+
+
+            <label for="phone">Phone number</label>
+            <input type="text" name= "phone" id="phone" maxlength="10" required="required" pattern="\d" placeholder="Phone number"/>
+
+            <label for="pro/serv">Product/Service</label>
+            <select id="pro/serv" name="pro/serv" required="required">
+                <option value="">Please select</option>
+                <option value="service1">Serice 1</option>
+                <option value="service2">Service 1</option>
+            </select>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <label>Product features/extras</label>
+
+            <fieldset>
+                <p class="align_center">
+
+                    <label for="pfx1">Extra 1</label>
+                    <input type="checkbox" id="pfx1" name="pfx1" required="required" value="something"/>
+                    <span>
+            <label for="pfx2">Extra 2</label>
+                <input type="checkbox" id="pfx2" name="pfx2" value="something"/>
+                </span>
+
+                    <span>
+            <label for="pfx3">Extra 3</label>
+                <input type="checkbox" id="pfx3" name="pfx3" value="something"/>
+                </span>
+
+                </p>
+
+            </fieldset>
+
+            <br/>
+            <br/>
+            <br/>
+
+
+            <div class="align_center">
+            <span>
+            <input type="submit" value="Submit">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="reset" value="Reset"></span>
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+
+
+</section>
+
 
 </body>
 </html>
