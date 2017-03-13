@@ -1,3 +1,11 @@
+/*
+filename: [Assignment]
+author: [Adam Jarzebak]
+created: [13/03/17]
+last modified: [13/03/17]
+description: [css file that refers up to navigation panel for all files in the assignment 1]
+*/
+
 ul#Navigation .active{
     border-color: white;
     border-left-color: black;
@@ -5,7 +13,6 @@ ul#Navigation .active{
     color: white;
     background-color: #adadad;
 }
-
 
 /* Style the links inside the navigation bar */
 .topnav {
@@ -39,22 +46,24 @@ ul#Navigation .active{
 
 .nav_td {
 
-    text-align: center;
-    width: 25%;
+    text-align: center !important;
+    width: 25% !important;
     valign: top;
 }
 /* End of table section */
 
 
-h1 {
-
-    text-align: center;
-    color: #375580;
-    font-size: 2em;
-    font-weight: bold;
-
-}
-
 hr {
     border-top: 1px solid black;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }

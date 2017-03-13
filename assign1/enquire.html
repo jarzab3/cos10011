@@ -41,17 +41,6 @@
     <hr />
 </header>
 
-
-<!--<div id="image_div">-->
-
-<!--<a  href="index.html">-->
-
-<!--<img class="picture" src="resources/images/construction.PNG" alt="Website under construction" title="construction image"  style="transform: scale(1.0, 1.0);"/>-->
-
-<!--</a>-->
-
-<!--</div>-->
-
 <section>
 
     <h2>Make an enquiry</h2>
@@ -61,13 +50,11 @@
         <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
             <label for="fname">First Name</label>
-            <!--<input type="text" id="fname" name="firstname" placeholder="Your name..">-->
-            <input type="text" name= "fname" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
 
+            <input type="text" name= "fname" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
 
             <label for="lname">Last Name</label>
             <input type="text" name= "lname" id="lname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
-            <!--<input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
 
             <label for="email">Email</label>
             <input type="email" name= "email" id="email" required="required"/>
@@ -77,18 +64,15 @@
             <br/>
 
             <div id="fieldset_label">
-                <label > Address</label>
+            <label > Address</label>
             </div>
 
             <fieldset>
-                <!--<legend id="l_address">Address</legend>-->
-
                 <label for="saddress">Street address</label>
-                <input type="text" name= "saddress" id="saddress" maxlength="40" required="required"/>
+                <input type="text" name="saddress" id="saddress" maxlength="40" required="required"/>
 
                 <label for="suburb">Suburb/town</label>
                 <input type="text" name= "suburb" id="suburb" maxlength="20" required="required"/>
-
 
                 <label for="state">State</label>
                 <select id="state" name="state" required="required">
@@ -133,10 +117,10 @@
             <br/>
             <br/>
 
-
             <label for="phone">Phone number</label>
-            <input type="text" name= "phone" id="phone" maxlength="10" required="required" pattern="\d" placeholder="Phone number"/>
-
+            <input type="text" name= "phone" id="phone" maxlength="10" required="required" pattern="\d{1,10}" placeholder="Phone number"/>
+            <br/>
+            <br/>
             <label for="pro/serv">Product/Service</label>
             <select id="pro/serv" name="pro/serv" required="required">
                 <option value="">Please select</option>
@@ -173,25 +157,17 @@
             <br/>
             <br/>
 
-
             <div class="align_center">
             <span>
             <input type="submit" value="Submit">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <input type="reset" value="Reset"></span>
             </div>
 
-
         </form>
+
     </div>
 
-
-
-
-
 </section>
-
 
 </body>
 </html>
