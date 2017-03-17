@@ -6,40 +6,40 @@
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
-    <link rel = "stylesheet" type = "text/css" href = "resources/css/enquire_style.css"/>
-    <link rel = "stylesheet" type = "text/css" href = "resources/css/nav_style.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css"/>
 
     <title>Assignment_1 - The enquire website</title>
 
 </head>
 <body>
+<div style="width: 100%">
+    <header>
+        <h1>Enquires</h1>
 
-<header>
-    <h1>Enquires</h1>
+        <div class="topnav" id="myTopnav">
+            <table width="100%">
 
-    <div class="topnav" id="myTopnav">
-        <table width="100%">
+                <td class="nav_td">
+                    <a href="index.html">Main</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="index.html">Main</a>
-            </td>
+                <td class="nav_td">
+                    <a href="enquire.html">Enquire</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="enquire.html">Enquire</a>
-            </td>
+                <td class="nav_td">
+                    <a href="product.html">Product</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="product.html">Product</a>
-            </td>
-
-            <td class="nav_td">
-                <a href="about.html">About</a>
-            </td>
-        </table>
-    </div>
-    <br/>
-    <hr />
-</header>
+                <td class="nav_td">
+                    <a href="about.html">About</a>
+                </td>
+            </table>
+        </div>
+        <br/>
+        <hr />
+    </header>
+</div>
 
 <section>
 
@@ -64,7 +64,7 @@
             <br/>
 
             <div id="fieldset_label">
-            <label > Address</label>
+                <label > Address</label>
             </div>
 
             <fieldset>
@@ -92,7 +92,6 @@
             </fieldset>
 
             <br/>
-            <br/>
 
             <label>Preferred contact</label>
 
@@ -113,25 +112,20 @@
                 </p>
 
             </fieldset>
-
-            <br/>
             <br/>
 
             <label for="phone">Phone number</label>
             <input type="text" name= "phone" id="phone" maxlength="10" required="required" pattern="\d{1,10}" placeholder="Phone number"/>
             <br/>
-            <br/>
-            <label for="pro/serv">Product/Service</label>
-            <select id="pro/serv" name="pro/serv" required="required">
+            <label for="pro_serv">Product/Service</label>
+            <select id="pro_serv" name="pro_serv">
                 <option value="">Please select</option>
                 <option value="service1">Serice 1</option>
-                <option value="service2">Service 1</option>
+                <option value="service2">Service 2</option>
             </select>
 
             <br/>
             <br/>
-            <br/>
-
             <label>Product features/extras</label>
 
             <fieldset>

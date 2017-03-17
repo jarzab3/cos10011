@@ -11,3 +11,29 @@ hr {
 p_text {
     display:inline-block;
 }
+
+footer {
+    position: absolute;
+    margin-top: 25px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.footer_td {
+    text-align: center;
+    width: 50%;
+    valign: top;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+

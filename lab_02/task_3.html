@@ -12,140 +12,165 @@
 </head>
 
 <body>
+<section>
 
-<a href="http://www.swinburne.edu.au/">
+    <a href="http://www.swinburne.edu.au/">
 
-    <img src="files/logo.png" alt="Swinburne University Logo" title="Swinburne logo" />
+        <img src="files/logo.png" alt="Swinburne University Logo" title="Swinburne logo" />
 
-</a>
+    </a>
 
-<h1>CWA Help Desk Appointment</h1>
+    <h1>CWA Help Desk Appointment</h1>
 
-<p>
-    The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday
-</p>
+    <p>
+        The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday
+    </p>
 
-<p>
-    Check Blackboard for when CWA tutors will be there.
-</p>
+    <p>
+        Check Blackboard for when CWA tutors will be there.
+    </p>
 
-<br/>
+    <br/>
 
-<form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+    <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
-    <fieldset>
-        <legend>Student Details</legend>
+        <fieldset>
+            <legend>Student Details</legend>
 
-        <p>
-            <label for="student_id">Student ID</label>
-            <input type="text" name= "student_id" id="student_id" size="10" pattern="\d{7,10}" required="required"/>
-        </p>
+            <p>
+                <label for="student_id">Student ID</label>
+                <input type="text" name= "student_id" id="student_id" size="10" pattern="\d{7,10}" required="required"/>
+            </p>
 
-        <p>
-            <label for="given_name">Given Name</label>
-            <input type="text" name= "name" id="given_name" maxlength="15" size="15" pattern="^[a-zA-Z ]+$" required="required"/>
-            <span>
+            <p>
+                <label for="given_name">Given Name</label>
+                <input type="text" name= "name" id="given_name" maxlength="15" size="15" pattern="^[a-zA-Z ]+$" required="required"/>
+                <span>
                 <label for="surname">Surname</label>
             <input type="text" name= "surname" id="surname" maxlength="15" size="15" pattern="^[a-zA-Z ]+$" required="required"/>
 
             </span>
-        </p>
+            </p>
 
-    </fieldset>
-    <br/><br/>
-    <fieldset>
-        <legend>Your unit</legend>
+        </fieldset>
+        <br/><br/>
+        <fieldset>
+            <legend>Your unit</legend>
 
-        <p><label for="unit1">COS10011</label>
-            <input type="radio" id="unit1" name="unit" required="required" value="unit1"/>
-            <span>
+            <p><label for="unit1">COS10011</label>
+                <input type="radio" id="unit1" name="unit" required="required" value="unit1"/>
+                <span>
             <label for="unit2">COS60004</label>
                 <input type="radio" id="unit2" name="unit" value="unit2"/>
                 </span>
 
-            <span>
+                <span>
             <label for="unit3">COS60007</label>
                 <input type="radio" id="unit3" name="unit" value="unit3"/>
                 </span>
-        </p>
+            </p>
 
-        <p><label for="tutor">Your Tutor</label>
-            <select name="tutor" id="tutor" required="required">
-                <option value="">Please Select</option>
-                <option value="Ken">Ken McInnes</option>
-                <option value="Tanya">Dr Tanya Linden</option>
-                <option value="Kayes">Dr A.S.M. (Kayes) Kayes</option>
-                <option value="Tanjila">Dr Tanjila Kanij</option>
-                <option value="Mr Jabed Chowdhury">Jabed</option>
-                <option value="Kidnapillai">Srisaiyeegharan (Sri) Kidnapillai</option>
+            <p><label for="tutor">Your Tutor</label>
+                <select name="tutor" id="tutor" required="required">
+                    <option value="">Please Select</option>
+                    <option value="Ken">Ken McInnes</option>
+                    <option value="Tanya">Dr Tanya Linden</option>
+                    <option value="Kayes">Dr A.S.M. (Kayes) Kayes</option>
+                    <option value="Tanjila">Dr Tanjila Kanij</option>
+                    <option value="Mr Jabed Chowdhury">Jabed</option>
+                    <option value="Kidnapillai">Srisaiyeegharan (Sri) Kidnapillai</option>
 
-            </select>
-        </p>
-    </fieldset>
+                </select>
+            </p>
+        </fieldset>
 
-    <br/>
-    <br/>
+        <br/>
+        <br/>
 
-    <fieldset>
-        <legend>Issue</legend>
+        <fieldset>
+            <legend>Issue</legend>
 
-        <p>
-            <label for="issue1">HTML</label>
-            <input type="checkbox" id="issue1" name="issue" value="HTML" checked="checked"/>
+            <p>
+                <label for="issue1">HTML</label>
+                <input type="checkbox" id="issue1" name="issue" value="HTML" checked="checked"/>
 
-            <span>
+                <span>
             <label for="issue2">CSS</label>
                 <input type="checkbox" id="issue2" name="issue" value="CSS"/>
             </span>
 
-            <span>
+                <span>
             <label for="issue3">Javascript</label>
                 <input type="checkbox" id="issue3" name="issue" value="Javascript"/>
             </span>
 
-            <span>
+                <span>
             <label for="issue4">PHP</label>
                 <input type="checkbox" id="issue4" name="issue" value="PHP"/>
             </span>
 
-            <span>
+                <span>
             <label for="issue5">MySQL</label>
                 <input type="checkbox" id="issue5" name="issue" value="MySQL"/>
             </span>
 
-            <br/><br/>
+                <br/><br/>
 
-            <span class="p_text">
+                <span class="p_text">
                 <label for="comments" style="display:block">Description of issue</label>
                 <textarea id="comments" name="comments" rows="4" cols="60" placeholder="Write description of your problem here"></textarea>
             </span>
 
-        </p>
+            </p>
 
-    </fieldset>
+        </fieldset>
 
-    <br/><br/>
+        <br/><br/>
 
-    <fieldset>
-        <legend>Preferred Date/Time</legend>
+        <fieldset>
+            <legend>Preferred Date/Time</legend>
 
-        <p><label for="date">Date</label>
-            <input type="date" name= "date" id="date" pattern="\d{1,2} /\d{1,2}/\d{4}" placeholder="dd-mm-yyyy"/>
-        </p>
+            <p><label for="date">Date</label>
+                <input type="text" name= "date" id="date" pattern="\d{1,2} /\d{1,2}/\d{4}" placeholder="dd-mm-yyyy"/>
+            </p>
 
-        <p><label for="time">Time</label>
-            <input type="time" name= "time" id="time" placeholder="00:00"/>
-        </p>
+            <p><label for="time">Time</label>
+                <input type="text" name= "time" id="time" placeholder="00:00"/>
+            </p>
 
-    </fieldset>
+        </fieldset>
 
-    <br/>
-    <br/>
+        <br/>
+        <br/>
 
-    <input type= "submit" value="Register"/>
-    <input type= "reset" value="Reset Form"/>
+        <input type= "submit" value="Register"/>
+        <input type= "reset" value="Reset Form"/>
 
-</form>
+    </form>
+</section>
+
+<footer>
+    <hr>
+    <table>
+        <tr>
+            <td class="footer_td">
+                &copy;
+                <a  href="http://www.swinburne.edu.au/">
+                    Swinburne Universty of Technology
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer_td">
+                &nbsp;
+                &nbsp;
+                Mark up by: <a href="mailto:adam@jarzebak.eu">
+                Adam Jarzebak</a>
+            </td>
+        </tr>
+    </table>
+
+</footer>
 
 </body>
 </html>

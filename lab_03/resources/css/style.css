@@ -34,9 +34,9 @@ h1, h2, h3 {
 
 }
 
-table {
-    border:1px solid black;
-}
+/*table {*/
+    /*border:1px solid black;*/
+/*}*/
 
 #images{
     text-align: center;
@@ -50,12 +50,10 @@ table {
     color: darkorange;
     font-weight: bold;
 
-
 }
 
 .thl{
     text-align: right;
-
 }
 
 nav a{
@@ -87,4 +85,15 @@ nav a:hover{
     background-color: lightblue;
     border-color: darkblue;
 }
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
 

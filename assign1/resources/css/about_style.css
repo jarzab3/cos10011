@@ -6,11 +6,21 @@ last modified: [12/03/17]
 description: [css file that refers up to about page for assignment 1]
 */
 
-
-
 body {
     background-color: white;
-    margin: 50px;
+}
+
+
+section table{
+    border: 1px solid black;
+}
+section td{
+    border: 1px solid black;
+
+}
+
+section table {
+    border-collapse: collapse;
 }
 
 h1 {
@@ -20,6 +30,9 @@ h1 {
     font-weight: bold;
 }
 
+
 #image_div{
     text-align: center;
 }
+
+

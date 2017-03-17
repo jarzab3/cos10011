@@ -11,15 +11,11 @@ description: [css file that refers up to index file for assignment 1]
 
 body {
     background-color: white;
+}
+
+section{
     margin: 50px;
 }
-
-.footer_td {
-    text-align: center;
-    width: 50%;
-    valign: top;
-}
-
 
 h1 {
     text-align: center;
@@ -27,8 +23,6 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 }
-
-
 
 
 .div_anim {

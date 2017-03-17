@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+ <title>Timetable</title>
+ <style type="text/css">
+  body
+  {
+   font-family: arial;
+   text-align: center;
+  }
+  table {
+display: inline-table;
+   border-spacing: 0;
+   border-collapse: collapse;
+  }
+
+  th,td
+  {
+   height: 60px;
+   text-align: center;
+   border-collapse: collapse;
+   outline: 1px solid #e3e3e3;
+  }
+
+  td
+  {
+   /*padding: 5px 10px;*/
+   height: 60px;
+  }
+
+  th
+  {
+   text-align: left;
+   min-width: 40px;
+   font-size: 10px;
+   background: #1d6166;
+   color: white;
+
+  }
+  .t{
+   transform: rotate(-45deg);
+  }
+  #half {
+   margin-top: 30px;
+  }
+
+  td:hover
+  {
+   cursor: pointer;
+   background: #666;
+   color: white;
+  }
+
+  #top {
+   display: inline-block;
+   vertical-align:top;
+   width: 100%;
+  }
+  #bot {
+   display: inline-block;
+   vertical-align:bottom;
+   width: 100%;
+  }
+
+  .class {
+   background-color: #4CAF50;
+  }
+
+  #hover-content {
+   display:none;
+   color: white;
+   font-size: 10px;
+   margin-right: 50px;
+  }
+  #parent:hover #hover-content {
+   display:block;
+  }
+
+  .display_child {
+   background-color: #7a7874;
+   border: dotted;
+  }
+
+  .modalDialog {
+   position: fixed;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.8);
+   z-index: 99999;
+   opacity:0;
+   -webkit-transition: opacity 400ms ease-in;
+   -moz-transition: opacity 400ms ease-in;
+   transition: opacity 400ms ease-in;
+   pointer-events: none;
+  }
+  .modalDialog:target {
+   opacity:1;
+   pointer-events: auto;
+  }
+  .modalDialog > div {
+   width: 45%;
+   position: relative;
+   margin: 10% auto;
+   padding: 5px 20px 13px 20px;
+   border-radius: 10px;
+   background: #fff;
+   background: -moz-linear-gradient(#fff, #999);
+   background: -webkit-linear-gradient(#fff, #999);
+   background: -o-linear-gradient(#fff, #999);
+  }
+  .close {
+   background: #606061;
+   color: #FFFFFF;
+   line-height: 25px;
+   position: absolute;
+   right: -12px;
+   text-align: center;
+   top: -10px;
+   width: 24px;
+   text-decoration: none;
+   font-weight: bold;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -moz-box-shadow: 1px 1px 3px #000;
+   -webkit-box-shadow: 1px 1px 3px #000;
+   box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+   background: #00d9ff;
+  }
+
+  .divBox
+  {
+   width: 100%;
+   height: 100%;
+   display: table;
+  }
+
+  .divBox a
+  {
+   vertical-align: bottom;
+   width: 100%;
+   height: 100%;
+   display: block;
+   display: table-cell;
+   vertical-align: middle;
+   text-decoration: none;
+   color: inherit;
+  }
+  .divBox a:hover{
+   text-decoration: underline overline;
+   color: yellowgreen;
+  }
+
+ </style>
+
+</head>
+<body >
+<div style="text-align: center">
+<table>
+ <caption>Timetable</caption>
+ <div id="head_nav">
+  <tr><th colspan="9" style="text-align: center; height: 10px; background: #ffa600; color: #000780">AM</th>
+   <th colspan="18" style="text-align: center; height: 10px; background: #34ff0d; color: #000780">PM</th>
+  </tr>
+  <tr>
+   <th></th>
+   <th>8:00</th>
+   <th>8:30</th>
+   <th>9:00</th>
+   <th>9:30</th>
+   <th>10:00</th>
+   <th>10:30</th>
+   <th>11:00</th>
+   <th>11:30</th>
+   <th>12:00</th>
+   <th>12:30</th>
+   <th>1:00</th>
+   <th>1:30</th>
+   <th>2:00</th>
+   <th>2:30</th>
+   <th>3:00</th>
+   <th>3:30</th>
+   <th>4:00</th>
+   <th>4:30</th>
+   <th>5:00</th>
+   <th>5:30</th>
+   <th>6:00</th>
+   <th>6:30</th>
+   <th>7:00</th>
+   <th>7:30</th>
+   <th>8:00</th>
+   <th>8:30</th>
+  </tr>
+ </div>
+
+
+ <!--<td colspan="2" class="class" id="parent">-->
+ <!--<div class="divBox" >-->
+ <!--<a href="#openModal" >TNE 30009</a>-->
+ <!--</div>-->
+ <!--<div id="hover-content">-->
+ <!--Click for <br/>more details-->
+ <!--</div>-->
+ <!--</td>-->
+
+
+ <tr>
+  <th >Monday</th>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+  <td colspan="2" class="class">
+   <div class="divBox" >
+    <a href="#openModal_1" >TNE 30009</a>
+   </div>
+  </td>
+
+  <td colspan="2" class="class">
+   <div class="divBox" >
+    <a href="#openModal_1" >TNE 30009</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal_2" >COS 10011</a>
+   </div>
+  </td>
+
+  <td></td>
+ </tr>
+
+ <tr>
+  <th>Tuesday</th>
+  <td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >TNE 30009</a>
+   </div>
+  </td>
+
+  <td></td><td></td>
+  <td colspan="6" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >TNE 20002</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+ </td><td></td><td></td><td></td><td></td>
+ </tr>
+
+ <tr>
+  <th>Wednesday</th>
+  <td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >COS 10011</a>
+   </div>
+  </td>
+
+  <td></td>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >TNE 30009</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+ </tr>
+
+ <tr>
+  <th>Thrusday</th>
+  <td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >INF 30020</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td></td><td></td><td></td><td></td><td></td><td></td>
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >INF 30020</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td>
+ </tr>
+
+ <tr>
+  <th>Friday</th>
+  <td></td><td></td><td></td><td></td><td></td>
+
+  <!--<td colspan="4" class="class" id="parent"> TNE 20002 <div id="hover-content">-->
+
+  <td colspan="4" class="class">
+   <div class="divBox" >
+    <a href="#openModal" >TNE 20002</a>
+   </div>
+  </td>
+
+  <td></td><td></td><td></td><td></td><td></td><td></td>
+  <td></td><td></td><td></td><td></td><td></td><td></td>
+  <td></td><td></td><td></td><td></td><td></td>
+ </tr>
+
+</table>
+</div>
+<div id="openModal_1" class="modalDialog">
+ <div >	<a href="#close" title="Close" class="close">X</a>
+  <h2>Network Security and Resilience</h2>
+  <h3>Lecture</h3>
+  <p>Hawthorn EN515</p>
+  <p style="text-align: center">Location</p>
+  <img src="../resources/images/swin_map.png" alt="Swinburne University Logo" title="Swinburne logo" height="250" width="90%" style="transform: scale(1.0, 1.0);" />
+ </div>
+</div>
+
+<div id="openModal_2" class="modalDialog">
+ <div>	<a href="#close" title="Close" class="close">X</a>
+
+  <h2>Creating Web Applications</h2>
+  <p>Tutorial</p>
+  <p>Hawthorn ATC 321</p>
+ </div>
+</div>
+
+<div id="openModal_3" class="modalDialog">
+ <div>	<a href="#close" title="Close" class="close">X</a>
+
+  <h2>Network Routing Principles</h2>
+  <p>Tutorial</p>
+  <p>Hawthorn ATC 321</p>
+ </div>
+</div>
+
+<div id="openModal_4" class="modalDialog">
+ <div>	<a href="#close" title="Close" class="close">X</a>
+
+  <h2>Network Security and Resilience</h2>
+  <p>Tutorial</p>
+  <p>Hawthorn ATC 321</p>
+ </div>
+</div>
+
+</body>
+</html>
