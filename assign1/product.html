@@ -1,60 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Demonstrates knowledge from the scope of the html and css." />
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
-    <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
 
     <title>Assignment_1 - The product website</title>
 
 </head>
 <body>
-<div style="width: 100%">
+
 <header>
-    <h1>Product</h1>
 
-    <div class="topnav" id="myTopnav">
-        <table width="100%">
+    <section class="topnav">
 
-            <td class="nav_td">
-                <a href="index.html">Main</a>
-            </td>
+        <table>
+            <tr>
+                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"></td>
+                <td>
+                    <a href="index.html">Main</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="enquire.html">Enquire</a>
-            </td>
+                <td>
+                    <a href="enquire.html">Enquire</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="product.html">Product</a>
-            </td>
+                <td id="current">
+                    <a href="product.html">Product</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="about.html">About</a>
-            </td>
+                <td>
+                    <a href="about.html">About</a>
+                </td>
+
+                <td>
+                    <a href="enhancements.html">Enhancements</a>
+                </td>
+            </tr>
         </table>
-    </div>
-    <br/>
-    <hr />
+    </section>
 </header>
-</div>
+<br/>
+<hr />
+
+<main id="main_container">
 
 
-<section>
-    <div id="image_div">
+    <section id="main_section_product">
+        <h1>Great Deals from SwinCruise </h1>
 
-        <a  href="index.html">
+        <article class="sub_container">
 
-            <img class="picture" src="resources/images/construction.PNG" alt="Website under construction" title="construction image"  style="transform: scale(1.0, 1.0);"/>
 
-        </a>
+            <section>
 
-    </div>
+                <section class="content_text">
+                    <h3>1. Awesome Cruise</h3>
+                    <p>With more than 15 years of experience in the Australian cruise market, CruiseAway offers a huge range of sailings and deep discounts of up to 70%.</p>
 
-</section>
+                    <hr class="style-one"/>
 
+                    <ul>
+
+                        <li>Best cruises prices guaranteed</li>
+                        <li>Offers prices below the brochure rates on many sailings
+                        </li>
+                        <li>Cruises available from more than 70 lines including Royal Caribbean, Carnival, Princess, P&O, MSC, Norwegian and Viking River Cruises
+                        </li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <aside>
+                <img class="img_scale_to_parent" src="images/cruise_images/cruise1.jpg" alt="Photo of Adam Jarzebak" height="230" width="200">
+            </aside>
+
+        </article>
+
+        <hr >
+        <article class="sub_container">
+
+            <section>
+
+                <section class="content_text">
+                    <h3>2. Princess Cruises</h3>
+                    <p>Set sail all around the world aboard large ships loaded with facilities, from spas to swimming pools, with a luxury cruise line.</p>
+
+                    <hr class="style-one"/>
+
+                    <ul>
+
+                        <li>Fleet of 18 ships that cruise all around the world</li>
+                        <li>Rooms for every budget, from interior cabins to suites with balconies</li>
+                        <li>Includes entertainment, all meals, room service and daily activities</li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <aside>
+                <img class="img_scale_to_parent" src="images/cruise_images/cruise2.jpg" alt="Photo of Adam Jarzebak" height="230" width="200">
+            </aside>
+
+        </article>
+
+        <hr >
+        <article class="sub_container">
+
+            <section>
+
+                <section class="content_text">
+                    <h3>3. Cruise Direct</h3>
+                    <p>Find the perfect cruise for you from more than a dozen different cruise lines to choose from at a competitive price.</p>
+
+                    <hr class="style-one"/>
+
+                    <ul>
+
+                        <li>Compare different cruise lines in one place</li>
+                        <li>Find last-minute offers and discounts</li>
+                        <li>Price match guarantee</li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <aside>
+                <img class="img_scale_to_parent" src="images/cruise_images/cruise3.jpg" alt="Photo of Adam Jarzebak" height="230" width="200">
+            </aside>
+
+        </article>
+
+        <hr >
+
+        <article class="sub_container">
+
+            <section>
+
+                <section class="content_text">
+                    <h3>4. Fred Olsen</h3>
+                    <p>This European cruise line offers a selection of sailings across Europe, the Caribbean, South and Central America and the Mediterranean.</p>
+
+                    <hr class="style-one"/>
+
+                    <ul>
+
+                        <li>Visit destinations many lower-budget cruise lines don't, like above the Arctic Circle, without paying a premium</li>
+                        <li>Customer service available on the phone seven days a week</li>
+                        <li>Guaranteed you'll enjoy your cruise or they'll arrange for you to depart early
+                        </li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <aside>
+                <img class="img_scale_to_parent" src="images/cruise_images/cruise3.jpg" alt="Photo of Adam Jarzebak" height="230" width="200">
+            </aside>
+
+        </article>
+
+
+    </section>
+
+
+
+    <footer>
+        <hr>
+        <table >
+            <td class="footer_td">
+                &copy;
+                <a  href="http://www.swinburne.edu.au/">
+                    Swinburne Universty of Technology
+                </a>
+            </td>
+
+            <td class="footer_td">
+                &nbsp;
+                &nbsp;
+                Mark up by: <a href="mailto:adam@jarzebak.eu">
+                Adam Jarzebak</a>
+            </td>
+
+        </table>
+
+    </footer>
+
+
+</main>
 </body>
 </html>

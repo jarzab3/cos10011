@@ -1,0 +1,514 @@
+/*
+filename: [Assignment]
+author: [Adam Jarzebak]
+created: [12/03/17]
+last modified: [15/03/17]
+description: [css file that refers up to all pages for assignment 1]
+*/
+
+
+/*Styling for main parts*/
+*{
+    /*border: solid 1px red !important;*/
+
+}
+
+html,
+body {
+    /*padding-eft:20px;*/
+    /*padding-right:10px;*/
+    height:100%;
+    width: 100%;
+    background: #cccccc;
+    background-image: url("images/5.png");
+    background-attachment: fixed;
+}
+
+html{
+    overflow-y: scroll;
+}
+
+#main_container {
+    min-height:100%;
+    position:relative;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #375580;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    /*margin-bottom: 40px;*/
+    padding: 12px 0 20px 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 35px;
+}
+
+dt{
+    font-size: 140%;
+    margin-bottom: 5px;
+}
+
+dd{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+a {color: rgba(32, 20, 11, 0.85)
+}
+/*End of styling for main parts*/
+
+/*Styles for main sections */
+
+#about_main{
+    margin: 0 35px 0 35px;
+    text-align: left;
+}
+
+/*End of styles for main sections */
+
+
+/*Styling for product page*/
+
+#main_section_product{
+    margin: auto;
+    width: 70%;
+    /*border: 3px solid green;*/
+    /*color: #ECE9E6;*/
+    /*background: rgba(32, 24, 23, 0.85);*/
+    /*padding:10px;*/
+    /*padding-bottom:30px;*/
+}
+
+.sub_container{
+    display: inline-block;
+    padding: 10px;
+}
+
+.sub_container > section {
+    float: left;
+    width: 50%;
+    color: white;
+    background: rgba(32, 24, 23, 0.85);
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    min-height: 220px;
+}
+
+.sub_container .content_text{
+    width: 85%;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
+
+.sub_container aside {
+    float: right;
+    width: 20%;
+    padding-right: 150px;
+    padding-top: 5px;
+}
+
+.sub_container ul {
+    list-style: none;
+    font-size: 12px;
+    margin:0;
+    padding: 0;
+}
+
+.sub_container ul li:before {
+    font-size: 16px;
+    content: '✓ ';
+}
+
+/*End styling for product page*/
+
+/* Style the links inside the navigation bar */
+.topnav {
+    width: 95%;
+    margin: auto;
+}
+
+.topnav table{
+    border-collapse: collapse;
+}
+
+.topnav a {
+    color: #082000;
+    text-decoration: none;
+    font-size: 25px;
+    height: 50px;
+    padding: 14px 0 0 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.topnav td:hover {
+    background-color: #fffefa;
+}
+
+.topnav td {
+    vertical-align: middle;
+    text-align: center;
+    width: 20%;
+    background-color: rgba(34, 51, 11, 0.33);
+
+}
+
+#special_td{
+    background-color: transparent;
+    padding-right: 50px;
+}
+#current{
+    background-color: rgba(156, 116, 62, 0.51);
+}
+
+/*End of navigation style*/
+
+
+/*Custom settings, such as classes or ID's*/
+
+#image_div{
+    text-align: center;
+}
+
+.roundrect {
+    border-radius: 25px;
+    size: 150px;
+}
+
+.img_scale_to_parent{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    margin: 40px 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(1, #333333), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    border: 0;2
+}
+
+hr.style-one {
+    height: 10px;
+    border: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+
+}
+
+/*End of custom settings */
+
+
+/*Form styles start here*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: rgba(255, 254, 250, 0.91);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+
+input[type=radio] {
+    margin-right: 100px;
+    border: 0px;
+    width: 17px;
+    height: 17px;
+}
+
+input[type=checkbox] {
+    border: 0px;
+    width: 17px;
+    height: 17px;
+}
+
+input[type=reset] {
+    width: 40%;
+    background-color: rgba(255, 254, 250, 0.91);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #847885;
+}
+
+input[type=reset]:hover {
+    background-color: #847885;
+}
+
+#style_form{
+    color: #ECE9E6;
+    background: rgba(32, 24, 23, 0.85);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#fieldset_label {
+    font-size: 170%;
+    color: white;
+    text-align: center
+}
+
+.align_center {
+    text-align: center;
+}
+
+/*Form styles ends here*/
+
+
+/*Footer styling*/
+
+
+footer table{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer td {
+    text-align: center;
+    width: 50%;
+}
+
+/*End of footer styling*/
+
+
+/*Timetable styling*/
+
+.timtable{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.timtable table {
+    width: inherit;
+    display: inline-table;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.timtable td
+{
+    text-align: center;
+    height: 40px;
+    border: 1px solid #dd99af;
+    border-collapse: collapse;
+    background: rgba(32, 27, 10, 0.75);
+    color: #99ffe6;
+
+}
+
+.timtable th
+{
+    border: 1px solid #dd99af;
+    height: 40px;
+    text-align: left;
+    min-width: 35px;
+    font-size: 13px;
+    background: rgba(22, 16, 32, 0.75);
+    color: white;
+    border-collapse: collapse;
+}
+
+#am {
+    text-align: center;
+    height: 10px;
+    background: #fafff8;
+    color: #000780;
+}
+
+#pm{
+    text-align: center;
+    height: 10px;
+    background: #66fdff;
+    color: #000780;
+}
+
+.timtable td:hover
+{
+    cursor: pointer;
+    background: #666;
+    color: white;
+}
+
+#hover-content {
+    display:none;
+    color: white;
+    font-size: 10px;
+    margin-right: 50px;
+}
+#parent:hover #hover-content {
+    display:block;
+}
+
+.display_child {
+    background-color: #7a7874;
+    border: dotted;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > section {
+    width: 45%;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+.divBox
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.divBox a
+{
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+}
+
+.divBox a:hover{
+    text-decoration: underline overline;
+    color: yellowgreen;
+}
+
+/*End of the timetable styling*/
+
+
+/*#main_container {*/
+/*min-height:100%;*/
+/*position:relative;*/
+/*}*/
+/*#pro code {*/
+/*background: #2db34a;*/
+/*border-radius: 6px;*/
+/*color: #fff;*/
+/*display: block;*/
+/*font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;*/
+/*padding: 24px 15px;*/
+/*text-align: center;*/
+/*}*/
+/*#pro header, section, aside, footer {*/
+/*margin: 0 1.5% 24px 1.5%;*/
+/*}*/
+/*#pro section {*/
+/*float: left;*/
+/*width: 63%;*/
+/*}*/
+/*#pro aside {*/
+/*float: right;*/
+/*width: 30%;*/
+/*}*/
+/*#pro footer {*/
+/*clear: both;*/
+/*margin-bottom: 0;*/
+/*}*/

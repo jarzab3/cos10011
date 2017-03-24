@@ -2,50 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Demonstrates knowledge from the scope of the html and css." />
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
-    <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
 
     <title>Assignment_1 - The enquire website</title>
 
 </head>
+
 <body>
-<div style="width: 100%">
-    <header>
-        <h1>Enquires</h1>
 
-        <div class="topnav" id="myTopnav">
-            <table width="100%">
 
-                <td class="nav_td">
+<header>
+
+    <section class="topnav">
+
+        <table>
+            <tr>
+                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"></td>
+                <td>
                     <a href="index.html">Main</a>
                 </td>
 
-                <td class="nav_td">
+                <td id="current">
                     <a href="enquire.html">Enquire</a>
                 </td>
 
-                <td class="nav_td">
+                <td>
                     <a href="product.html">Product</a>
                 </td>
 
-                <td class="nav_td">
+                <td>
                     <a href="about.html">About</a>
                 </td>
-            </table>
-        </div>
-        <br/>
-        <hr />
-    </header>
-</div>
 
-<section>
+                <td>
+                    <a href="enhancements.html">Enhancements</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+</header>
+<br/>
+<hr />
 
-    <h2>Make an enquiry</h2>
+<main id="main_container">
 
-    <div class="div_form">
+    <section id="style_form">
+
+        <h2>Make an enquiry</h2>
+
+        <!--<section class="div_form">-->
 
         <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
@@ -58,7 +68,6 @@
 
             <label for="email">Email</label>
             <input type="email" name= "email" id="email" required="required"/>
-
 
             <br/>
             <br/>
@@ -159,9 +168,32 @@
 
         </form>
 
-    </div>
+        <!--</section>-->
 
-</section>
+    </section>
+
+    <footer>
+        <hr>
+        <table >
+            <td class="footer_td">
+                &copy;
+                <a  href="http://www.swinburne.edu.au/">
+                    Swinburne Universty of Technology
+                </a>
+            </td>
+
+            <td class="footer_td">
+                &nbsp;
+                &nbsp;
+                Mark up by: <a href="mailto:adam@jarzebak.eu">
+                Adam Jarzebak</a>
+            </td>
+
+        </table>
+
+    </footer>
+
+</main>
 
 </body>
 </html>

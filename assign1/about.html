@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--<html lang="en">-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Demonstrates knowledge from the scope of the html and css." />
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
-    <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
     <title>Assignment_1 - The about website</title>
 
@@ -14,78 +16,93 @@
 <body>
 
 <header>
-    <h1>About</h1>
 
-    <div class="topnav" id="myTopnav">
-        <table width="100%">
+    <section class="topnav">
 
-            <td class="topnav">
-                <a href="index.html">Main</a>
-            </td>
+        <table>
+            <tr>
+                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"></td>
+                <td>
+                    <a href="index.html">Main</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="enquire.html">Enquire</a>
-            </td>
+                <td>
+                    <a href="enquire.html">Enquire</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="product.html">Product</a>
-            </td>
+                <td>
+                    <a href="product.html">Product</a>
+                </td>
 
-            <td class="nav_td">
-                <a href="about.html">About</a>
-            </td>
+                <td id="current">
+                    <a href="about.html">About</a>
+                </td>
+
+                <td>
+                    <a href="enhancements.html">Enhancements</a>
+                </td>
+            </tr>
         </table>
-    </div>
-    <br/>
-    <hr />
+    </section>
 </header>
+<br/>
+<hr />
 
-<section>
+<main id="main_container">
 
-    <dl>
+    <section id="about_main">
 
-        <dt>
-            Name
-        </dt>
-        <dd>
-            Adam Jarzebak
-        </dd>
+        <dl>
 
-        <dt>
-            Student
+            <dt>
+                Name
+            </dt>
+            <dd>
+                Adam Jarzebak
+            </dd>
 
-        </dt>
-        <dd>
-            101304282
+            <dt>
+                Student
 
-        </dd>
+            </dt>
 
-        <dt>
-            Course
-        </dt>
+            <dd>
+                101304282
 
-        <dd>
-            BSc Computer Science
-        </dd>
-        <dt>
-            Photo
-        </dt>
-        <dd>
-            Photo here
-        </dd>
-        <dt>
+            </dd>
 
-            My Timetable
-        </dt>
-        <dd>
+            <dt>
+                Course
+            </dt>
 
-            <div class="timtable">
-                <table>
-                    <caption>Timetable</caption>
-                    <div id="head_nav">
-                        <tr><th colspan="9" style="text-align: center; height: 10px; background: #ffa600; color: #000780">AM</th>
-                            <th colspan="18" style="text-align: center; height: 10px; background: #34ff0d; color: #000780">PM</th>
+            <dd>
+                BSc Computer Science
+            </dd>
+
+            <dt>
+                My photo
+            </dt>
+
+            <dd>
+                <img class="roundrect" src="images/DSC_0002.JPG" alt="Photo of Adam Jarzebak" height="200" width="200">
+            </dd>
+            <dt>
+
+                My Timetable
+            </dt>
+            <dd>
+
+                <br/>
+                <br/>
+
+                <section class="timtable">
+                    <table>
+
+                        <tr>
+                            <th colspan="9" id="am">AM</th>
+                            <th colspan="18" id="pm">PM</th>
                         </tr>
+
                         <tr>
                             <th></th>
                             <th>8:00</th>
@@ -115,285 +132,284 @@
                             <th>8:00</th>
                             <th>8:30</th>
                         </tr>
-                    </div>
+                        <!--</section>-->
+
+                        <!--<td colspan="2" class="class" id="parent">-->
+                        <!--<section class="divBox" >-->
+                        <!--<a href="#openModal" >TNE 30009</a>-->
+                        <!--</section>-->
+                        <!--<section id="hover-content">-->
+                        <!--Click for <br/>more details-->
+                        <!--</section>-->
+                        <!--</td>-->
+
+                        <tr>
+                            <th >Monday</th>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+                            <td colspan="2" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_1" >TNE 30009</a>
+                                </section>
+                            </td>
+
+                            <td colspan="2" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_2" >TNE 30009</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_3" >COS 10011</a>
+                                </section>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Tuesday</th>
+                            <td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_4" >TNE 30009</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td>
+                            <td colspan="6" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_5" >TNE 20002</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+                        </td><td></td><td></td><td></td><td></td>
+                        </tr>
+
+                        <tr>
+                            <th>Wednesday</th>
+                            <td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_6" >COS 10011</a>
+                                </section>
+                            </td>
+
+                            <td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_7" >TNE 30009</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        </tr>
+
+                        <tr>
+                            <th>Thrusday</th>
+                            <td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_8" >INF 30020</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td>
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_9" >INF 30020</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td>
+                        </tr>
+
+                        <tr>
+                            <th>Friday</th>
+                            <td></td><td></td><td></td><td></td><td></td>
+
+                            <!--<td colspan="4" class="class" id="parent"> TNE 20002 <section id="hover-content">-->
+
+                            <td colspan="4" class="class">
+                                <section class="divBox" >
+                                    <a href="#openModal_10" >TNE 20002</a>
+                                </section>
+                            </td>
+
+                            <td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td>
+                        </tr>
+
+                    </table>
+                </section>
+                <!--Content for modals -->
 
 
-                    <!--<td colspan="2" class="class" id="parent">-->
-                    <!--<div class="divBox" >-->
-                    <!--<a href="#openModal" >TNE 30009</a>-->
-                    <!--</div>-->
-                    <!--<div id="hover-content">-->
-                    <!--Click for <br/>more details-->
-                    <!--</div>-->
-                    <!--</td>-->
+                <section id="openModal_1" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Security and Resilience</h2>
+                        <h3>Lecture 1</h3>
+                        <p>Hawthorn EN515</p>
+                        <p>Time: 1:30pm - 2:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
+                <section id="openModal_2" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Security and Resilience</h2>
+                        <h3>Tutorial</h3>
+                        <p>Hawthorn ATC 321</p>
+                        <p>Time: 2:30pm - 3:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                    <tr>
-                        <th >Monday</th>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <section id="openModal_3" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Creating Web Applications</h2>
+                        <h3>Lecture</h3>
+                        <p>Hawthorn EN 313</p>
+                        <p>Time: 6:30pm - 8:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td colspan="2" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_1" >TNE 30009</a>
-                            </div>
-                        </td>
+                <section id="openModal_4" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Security and Resilience</h2>
+                        <h3>Lecture 2</h3>
+                        <p>Hawthorn EN 413</p>
+                        <p>Time: 8:30am - 10:30am</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td colspan="2" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_2" >TNE 30009</a>
-                            </div>
-                        </td>
+                <section id="openModal_5" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Routing Principles</h2>
+                        <h3>Practical</h3>
+                        <p>Hawthorn ATC 329</p>
+                        <p>Time: 11:30am - 2:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <section id="openModal_6" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Creating Web Applications</h2>
+                        <h3>Lab</h3>
+                        <p>Hawthorn BA 601</p>
+                        <p>Time: 8:30am - 10:30am</p>
+                        <p>Location</p>
+                        <img src="images/giphy_3.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_3" >COS 10011</a>
-                            </div>
-                        </td>
-                    </tr>
+                <section id="openModal_7" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Security and Resilience</h2>
+                        <h3>Lab</h3>
+                        <p>Hawthorn EN 305</p>
+                        <p>Time: 2:30pm - 4:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
 
-                    <tr>
-                        <th>Tuesday</th>
-                        <td></td>
+                </section>
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_4" >TNE 30009</a>
-                            </div>
-                        </td>
+                <section id="openModal_8" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Information Systems Risk and Security</h2>
+                        <h3>Lecture</h3>
+                        <p>Hawthorn EN 313</p>
+                        <p>Time: 8:30am - 10:30am</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td></td><td></td>
-                        <td colspan="6" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_5" >TNE 20002</a>
-                            </div>
-                        </td>
+                <section id="openModal_9" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Information Systems Risk and Security</h2>
+                        <h3>Lab</h3>
+                        <p>Hawthorn ATC 326</p>
+                        <p>Time: 5:30pm - 10:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
-                    </td><td></td><td></td><td></td><td></td>
-                    </tr>
+                <section id="openModal_10" class="modalDialog">
+                    <section class="align_center">	<a href="#close" title="Close" class="close">X</a>
+                        <h2>Network Routing Principles</h2>
+                        <h3>Lecture</h3>
+                        <p>Hawthorn EN 615</p>
+                        <p>Time: 10:30am - 12:30pm</p>
+                        <p>Location</p>
+                        <img src="images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
+                    </section>
+                </section>
 
-                    <tr>
-                        <th>Wednesday</th>
-                        <td></td>
+                <!--End of the content for modals-->
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_6" >COS 10011</a>
-                            </div>
-                        </td>
+            </dd>
 
-                        <td></td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <!--End of timetable content -->
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_7" >TNE 30009</a>
-                            </div>
-                        </td>
+            <dt>
+                Contact
+            </dt>
 
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
+            <dd>
+                <a href="mailto:adam@jarzebak.eu">
+                    Adam Jarzebak</a>
+            </dd>
 
-                    <tr>
-                        <th>Thrusday</th>
-                        <td></td>
+        </dl>
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_8" >INF 30020</a>
-                            </div>
-                        </td>
+    </section>
 
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td>
+    <footer>
 
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_9" >INF 30020</a>
-                            </div>
-                        </td>
+        <hr/>
+        <table >
+            <td class="footer_td">
+                &copy;
+                <a  href="http://www.swinburne.edu.au/">
+                    Swinburne Universty of Technology
+                </a>
+            </td>
 
-                        <td></td><td></td><td></td>
-                    </tr>
-
-                    <tr>
-                        <th>Friday</th>
-                        <td></td><td></td><td></td><td></td><td></td>
-
-                        <!--<td colspan="4" class="class" id="parent"> TNE 20002 <div id="hover-content">-->
-
-                        <td colspan="4" class="class">
-                            <div class="divBox" >
-                                <a href="#openModal_10" >TNE 20002</a>
-                            </div>
-                        </td>
-
-                        <td></td><td></td><td></td><td></td><td></td><td></td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-
-                </table>
-            </div>
-            <!--Content for modals -->
-
-
-            <div id="openModal_1" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Security and Resilience</h2>
-                    <h3>Lecture 1</h3>
-                    <p>Hawthorn EN515</p>
-                    <time>Time: 1:30pm - 2:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_2" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Security and Resilience</h2>
-                    <h3>Tutorial</h3>
-                    <p>Hawthorn ATC 321</p>
-                    <time>Time: 2:30pm - 3:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_3" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Creating Web Applications</h2>
-                    <h3>Lecture</h3>
-                    <p>Hawthorn EN 313</p>
-                    <time>Time: 6:30pm - 8:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_4" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Security and Resilience</h2>
-                    <h3>Lecture 2</h3>
-                    <p>Hawthorn EN 413</p>
-                    <time>Time: 8:30am - 10:30am</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_5" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Routing Principles</h2>
-                    <h3>Practical</h3>
-                    <p>Hawthorn ATC 329</p>
-                    <time>Time: 11:30am - 2:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_6" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Creating Web Applications</h2>
-                    <h3>Lab</h3>
-                    <p>Hawthorn BA 601</p>
-                    <time>Time: 8:30am - 10:30am</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_3.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_7" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Security and Resilience</h2>
-                    <h3>Lab</h3>
-                    <p>Hawthorn EN 305</p>
-                    <time>Time: 2:30pm - 4:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-
-            </div>
-
-            <div id="openModal_8" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Information Systems Risk and Security</h2>
-                    <h3>Lecture</h3>
-                    <p>Hawthorn EN 313</p>
-                    <time>Time: 8:30am - 10:30am</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_9" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Information Systems Risk and Security</h2>
-                    <h3>Lab</h3>
-                    <p>Hawthorn ATC 326</p>
-                    <time>Time: 5:30pm - 10:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_2.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-            <div id="openModal_10" class="modalDialog">
-                <div class="align_center">	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Network Routing Principles</h2>
-                    <h3>Lecture</h3>
-                    <p>Hawthorn EN 615</p>
-                    <time>Time: 10:30am - 12:30pm</time>
-                    <p>Location</p>
-                    <img src="resources/images/giphy_1.gif" alt="swinburne map" title="Swinburne Map"  />
-                </div>
-            </div>
-
-
-
-
-
-            <!--End of the content for modals-->
-
-        </dd>
-
-        <dt>
-            Contact
-        </dt>
-
-        <dd>
-            <a href="mailto:adam@jarzebak.eu">
+            <td class="footer_td">
+                &nbsp;
+                &nbsp;
+                Mark up by: <a href="mailto:adam@jarzebak.eu">
                 Adam Jarzebak</a>
-        </dd>
+            </td>
 
-    </dl>
+        </table>
 
-</section>
+        <section>
 
-<footer>
-    <hr>
-    <table width="100%">
-        <td class="footer_td">
-            &copy;
-            <a  href="http://www.swinburne.edu.au/">
-                Swinburne Universty of Technology
-            </a>
-        </td>
+    </footer>
 
-        <td class="footer_td">
-            &nbsp;
-            &nbsp;
-            Mark up by: <a href="mailto:adam@jarzebak.eu">
-            Adam Jarzebak</a>
-        </td>
-
-    </table>
-
-    <section>
-
-</footer>
+    <main id="main_container">
 
 </body>
 </html>
