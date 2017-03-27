@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Demonstrates knowledge from the scope of the html and css." />
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
@@ -106,21 +105,22 @@
 
             <fieldset>
 
-                <p class="align_center">
-                    <label for="pc1">Email</label>
-                    <input type="radio" id="pc1" name="pc1" required="required" value="email"/>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="radio" id="email" name="contact" required="required" value="email"/>
                     <span>
-            <label for="pc2">Post</label>
-                <input type="radio" id="pc2" name="pc2" value="post"/>
+            <label for="post">Post</label>
+                <input type="radio" id="post" name="contact" value="post"/>
                 </span>
 
                     <span>
-            <label for="pc3">Phone</label>
-                <input type="radio" id="pc3" name="pc3" value="phone"/>
+            <label for="phone">Phone</label>
+                <input type="radio" id="phone" name="contact" value="phone"/>
                 </span>
                 </p>
 
             </fieldset>
+
             <br/>
 
             <label for="phone">Phone number</label>
@@ -158,6 +158,13 @@
 
             <br/>
             <br/>
+            <section id="comments">
+                <label for="comments" style="display:block">Comments</label>
+                <textarea id="comments" name="comments" rows="4" cols="80" placeholder="Write your comments here."></textarea>
+            </section>
+
+            <br/>
+            <br/>
             <br/>
 
             <div class="align_center">
@@ -176,7 +183,7 @@
         <hr>
         <table >
             <td class="footer_td">
-                &copy;
+                <strong>&copy;</strong>
                 <a  href="http://www.swinburne.edu.au/">
                     Swinburne Universty of Technology
                 </a>
@@ -185,7 +192,7 @@
             <td class="footer_td">
                 &nbsp;
                 &nbsp;
-                Mark up by: <a href="mailto:adam@jarzebak.eu">
+                <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
                 Adam Jarzebak</a>
             </td>
 
