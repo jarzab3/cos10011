@@ -14,14 +14,13 @@
 
 <body>
 
-
 <header>
 
     <section class="topnav">
 
         <table>
             <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"></td>
+                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
                 <td>
                     <a href="index.html">Main</a>
                 </td>
@@ -54,19 +53,17 @@
 
         <h2>Make an enquiry</h2>
 
-        <!--<section class="div_form">-->
-
         <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
             <label for="fname">First Name</label>
 
-            <input type="text" name= "fname" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+            <input type="text" name= "First Name" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
 
             <label for="lname">Last Name</label>
-            <input type="text" name= "lname" id="lname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+            <input type="text" name= "Last Name" id="lname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
 
             <label for="email">Email</label>
-            <input type="email" name= "email" id="email" required="required"/>
+            <input type="email" name= "Email addresss" id="email1" required="required"/>
 
             <br/>
             <br/>
@@ -77,13 +74,14 @@
 
             <fieldset>
                 <label for="saddress">Street address</label>
-                <input type="text" name="saddress" id="saddress" maxlength="40" required="required"/>
+                <input type="text" name="Address" id="saddress" maxlength="40" required="required"/>
 
                 <label for="suburb">Suburb/town</label>
-                <input type="text" name= "suburb" id="suburb" maxlength="20" required="required"/>
+                <input type="text" name= "Suburb" id="suburb" maxlength="20" required="required"/>
 
                 <label for="state">State</label>
-                <select id="state" name="state" required="required">
+                <select required='required' id="state" name="State">
+                    <option value="">Please select</option>
                     <option value="VIC">VIC</option>
                     <option value="NSW">NSW</option>
                     <option value="QLD">QLD</option>
@@ -95,7 +93,7 @@
                 </select>
 
                 <label for="postcode">Postcode</label>
-                <input type="text" name= "postcode" id="postcode" maxlength="4" pattern="\d{4}" required="required" placeholder="Postcode"/>
+                <input type="text" name= "Postcode" id="postcode" maxlength="4" pattern="\d{4}" required="required" placeholder="Postcode"/>
 
             </fieldset>
 
@@ -107,15 +105,15 @@
 
                 <p>
                     <label for="email">Email</label>
-                    <input type="radio" id="email" name="contact" required="required" value="email"/>
+                    <input type="radio" id="email" name="Contact" required="required" value="email" checked='checked'/>
                     <span>
             <label for="post">Post</label>
-                <input type="radio" id="post" name="contact" value="post"/>
+                <input type="radio" id="post" name="Contact" value="post"/>
                 </span>
 
                     <span>
             <label for="phone">Phone</label>
-                <input type="radio" id="phone" name="contact" value="phone"/>
+                <input type="radio" id="phone" name="Contact" value="phone"/>
                 </span>
                 </p>
 
@@ -124,10 +122,10 @@
             <br/>
 
             <label for="phone">Phone number</label>
-            <input type="text" name= "phone" id="phone" maxlength="10" required="required" pattern="\d{1,10}" placeholder="Phone number"/>
+            <input type="text" name= "Phone Number" id="phone1" maxlength="10" required="required" pattern="\d{1,10}" placeholder="Phone number"/>
             <br/>
             <label for="pro_serv">Product/Service</label>
-            <select id="pro_serv" name="pro_serv">
+            <select id="pro_serv" name="Product/service">
                 <option value="">Please select</option>
                 <option value="service1">Serice 1</option>
                 <option value="service2">Service 2</option>
@@ -141,15 +139,15 @@
                 <p class="align_center">
 
                     <label for="pfx1">Extra 1</label>
-                    <input type="checkbox" id="pfx1" name="pfx1" required="required" value="something"/>
+                    <input type="checkbox" id="pfx1" name="Product 1" value="something" checked='checked'/>
                     <span>
             <label for="pfx2">Extra 2</label>
-                <input type="checkbox" id="pfx2" name="pfx2" value="something"/>
+                <input type="checkbox" id="pfx2" name="Product 2" value="something"/>
                 </span>
 
                     <span>
             <label for="pfx3">Extra 3</label>
-                <input type="checkbox" id="pfx3" name="pfx3" value="something"/>
+                <input type="checkbox" id="pfx3" name="Product 3" value="something"/>
                 </span>
 
                 </p>
@@ -158,9 +156,9 @@
 
             <br/>
             <br/>
-            <section id="comments">
-                <label for="comments" style="display:block">Comments</label>
-                <textarea id="comments" name="comments" rows="4" cols="80" placeholder="Write your comments here."></textarea>
+            <section>
+                <label for="comm" style="display:block">Comments</label>
+                <textarea class="comments" id="comm" name="Comments" rows="4" cols="80" placeholder="Write your comments here."></textarea>
             </section>
 
             <br/>
@@ -169,34 +167,28 @@
 
             <div class="align_center">
             <span>
-            <input type="submit" value="Submit">
-           <input type="reset" value="Reset"></span>
+            <input type="submit" value="Submit"/>
+           <input type="reset" value="Reset"/>
+           </span>
             </div>
 
         </form>
 
-        <!--</section>-->
-
     </section>
 
     <footer>
-        <hr>
-        <table >
-            <td class="footer_td">
-                <strong>&copy;</strong>
-                <a  href="http://www.swinburne.edu.au/">
-                    Swinburne Universty of Technology
-                </a>
-            </td>
+        <hr/>
+        <p>
+            <strong>&#169;</strong>
+            <a  href="http://www.swinburne.edu.au/">
+                Swinburne Universty of Technology
+            </a>
+        </p>
 
-            <td class="footer_td">
-                &nbsp;
-                &nbsp;
-                <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
-                Adam Jarzebak</a>
-            </td>
-
-        </table>
+        <p>  &#160;
+            &#160;
+            <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
+                Adam Jarzebak</a></p>
 
     </footer>
 
