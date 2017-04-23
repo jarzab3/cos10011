@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    margin: 70px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+h1 {
+    width: 450px; /* or whatever width */
+    overflow: hidden;
+    margin-left: 20px;
+
+}
+
+.picture {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+li {
+    margin: 0;
+    padding: 0.2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+footer{
+    margin-top: 50px;
+     display: block;
+}

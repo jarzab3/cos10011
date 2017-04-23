@@ -3,8 +3,6 @@
  */
 function getBooking(){
     var cost = 0;
-            alert("get here");
-
     if(sessionStorage.firstname != undefined){    //if sessionStorage for username is not empty
         //confirmation text
         document.getElementById("confirm_name").textContent = sessionStorage.firstname + " " + sessionStorage.lastname;
@@ -16,17 +14,13 @@ function getBooking(){
         cost = calcCost(sessionStorage.trip, sessionStorage.partySize);
         document.getElementById("confirm_cost").textContent = cost;
 
-        document.getElementById("firstname").value = sessionStorage.firstname;
         /*
          Write lastname, age, species, age, food, and partySize from seesionStorage to the hidden inputs
          */
-        alert("get here");
         document.getElementById("cost").value = cost;
 
-        document.getElementById("result").innerHTML = localStorage.getItem("lastname");
     }
 }
-
 
 
 function init () {

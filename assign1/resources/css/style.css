@@ -1,0 +1,369 @@
+/*
+filename: [Assignment]
+author: [Adam Jarzebak]
+created: [12/03/17]
+last modified: [15/03/17]
+description: [css file that refers up to all pages for assignment 1]
+*/
+
+
+/*Styling for main parts*/
+
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: white;
+}
+
+section{
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #375580;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    margin-top: 35px;
+}
+
+/*End of styling for main parts*/
+
+
+/* Style the links inside the navigation bar */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    /*float: left;*/
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.td {
+
+    text-align: center !important;
+    width: 25% !important;
+    valign: top;
+}
+
+
+/*End of navigation style*/
+
+
+
+/*Custom settings, such as classes or ID's*/
+
+#image_div{
+    text-align: center;
+}
+
+hr {
+    border-top: 2px solid black;
+    width: 85%;
+}
+
+/*.calendar_table {*/
+/*width: 100%;*/
+/*border-collapse: collapse;*/
+/*border: 2px solid black;*/
+/*}*/
+/*.calendar_table td, th {*/
+/*border: 2FFFpx solid black;*/
+/*}*/
+
+/*a {*/
+/*text-decoration: none;*/
+/*}*/
+
+
+/*End of custom settings */
+
+
+/*Form styles start here*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+
+input[type=radio] {
+    margin-right: 100px;
+    border: 0px;
+    width: 17px;
+    height: 17px;
+}
+
+input[type=checkbox] {
+    /*margin-right: 100px;*/
+    border: 0px;
+    width: 17px;
+    height: 17px;
+}
+
+input[type=reset] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+.div_form {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate3d(-50%,0, 0);
+    position: absolute;
+}
+
+#fieldset_label {
+    font-size: 170%;
+    color: #00627f;
+    text-align: center}
+
+
+.align_center {
+    text-align: center;
+}
+
+/*Form styles ends here*/
+
+
+/*Footer styling*/
+
+footer {
+    position: absolute;
+    margin-top: 25px;
+    right: 0;
+    /*bottom: 0;*/
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.footer_td {
+    text-align: center;
+    width: 50%;
+    valign: top;
+}
+
+/*End of footer styling*/
+
+
+/*Timetable styling*/
+
+.timtable{text-align: center;}
+.timtable table {
+    display: inline-table;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.timtable th,td
+{
+    height: 60px;
+    text-align: center;
+    border-collapse: collapse;
+    outline: 1px solid #e3e3e3;
+}
+
+.timtable td
+{
+    /*padding: 5px 10px;*/
+    height: 60px;
+}
+
+.timtable th
+{
+    text-align: left;
+    min-width: 40px;
+    font-size: 10px;
+    background: #1d6166;
+    color: white;
+}
+
+/*Optional- This allows to rotate the content about 45 degress*/
+.t {
+    transform: rotate(-45deg);
+}
+/*End*/
+
+#half {
+    margin-top: 30px;
+}
+
+.timtable td:hover
+{
+    cursor: pointer;
+    background: #666;
+    color: white;
+}
+
+.class {
+    background-color: #4CAF50;
+}
+
+#hover-content {
+    display:none;
+    color: white;
+    font-size: 10px;
+    margin-right: 50px;
+}
+#parent:hover #hover-content {
+    display:block;
+}
+
+.display_child {
+    background-color: #7a7874;
+    border: dotted;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 45%;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+.divBox
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.divBox a
+{
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+}
+
+.divBox a:hover{
+    text-decoration: underline overline;
+    color: yellowgreen;
+}
+
+
+/*End of the timetable styling*/

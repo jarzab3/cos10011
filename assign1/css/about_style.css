@@ -1,0 +1,38 @@
+/*
+filename: [Assignment]
+author: [Adam Jarzebak]
+created: [12/03/17]
+last modified: [12/03/17]
+description: [css file that refers up to about page for assignment 1]
+*/
+
+body {
+    background-color: white;
+}
+
+
+section table{
+    border: 1px solid black;
+}
+section td{
+    border: 1px solid black;
+
+}
+
+section table {
+    border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+    color: #375580;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#image_section{
+    text-align: center;
+}
+
+

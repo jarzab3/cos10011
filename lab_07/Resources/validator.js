@@ -17,22 +17,25 @@ function calcCost(trips, partySize){
     return cost * partySize;
 }
 
-
-
-function storeBooking(firstname, lastname, age, is1day, is4day, is10day) {
+function storeBooking(firstname, lastname, species, age, is1day, is4day, is10day) {
 
     sessionStorage.firstname = firstname;
     sessionStorage.lastname = lastname;
-    sessionStorage.confirm_age = age;
+    sessionStorage.age = age;
+    sessionStorage.species = species;
 
-    localStorage.setItem("lastname", "Smith");
+    alert(species);
 
-        var trip = "";
-        if(is1day){trip =+ ' is 1 day';}
-        if(is4day){trip =+ ' is 4 day';}
-        if(is10day){trip =+ ' is 10 day';}
+    var trip = "";
 
-    alert("Data saved");
+    // if(is1day){trip += ' is 1 day';}
+    // if(is4day){trip += ' is 4 day';}
+    // if(is10day){trip += ' is 10 day';}
+
+    alert(is1day);
+    alert(is4day);
+    alert(is10day);
+
 }
 
 function validate() {
@@ -53,10 +56,10 @@ function validate() {
         4: "Elf"
     };
 
+
     var is1day = document.getElementById("1day").checked;
     var is4day = document.getElementById("4day").checked;
     var is10day = document.getElementById("10day").checked;
-
 
     if (!firstname.match(/^[a-zA-Z]+$/)) {
         errorMsg = errorMsg + "Your first name must contain only alpha characters\n";
@@ -80,7 +83,6 @@ function validate() {
     else if (age > 1000) {
         errorMsg = errorMsg + "You cannot be so old, can you?\n";
         result = false;
-
     }
 
     else {
@@ -109,9 +111,12 @@ function validate() {
         alert(errorMsg);
     }
 
+
     if (result){
 
-        storeBooking(firstname, lastname, age, species_choices, is1day, is4day, is10day )
+        var species = getSpecies();
+
+        storeBooking(firstname, lastname, age, species, is1day, is4day, is10day )
     }
 
     return result;
@@ -204,8 +209,6 @@ function init () {
     var regForm = document.getElementById("reggform");
     regForm.onsubmit = validate;
 
-    // var cForm = document.getElementById("bookform");
-    // getBooking();
 }
 
 window.onload = init;

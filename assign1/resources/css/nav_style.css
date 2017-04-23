@@ -1,0 +1,78 @@
+/*
+filename: [Assignment]
+author: [Adam Jarzebak]
+created: [13/03/17]
+last modified: [13/03/17]
+description: [css file that refers up to navigation panel for all files in the assignment 1]
+*/
+
+ul#Navigation .active{
+    border-color: white;
+    border-left-color: black;
+    border-top-color: black;
+    color: white;
+    background-color: #adadad;
+}
+
+/* Style the links inside the navigation bar */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    /*float: left;*/
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*End of nav style*/
+
+/*Table styling*/
+
+.nav_td {
+
+    text-align: center !important;
+    width: 25% !important;
+    valign: top;
+}
+/* End of table section */
+
+
+section{
+    margin: 50px;
+}
+hr {
+    border-top: 1px solid black;
+}
+
+footer {
+    position: absolute;
+    margin-top: 25px;
+    right: 0;
+    /*bottom: 0;*/
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.footer_td {
+    text-align: center;
+    width: 50%;
+    valign: top;
+}

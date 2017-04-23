@@ -27,7 +27,7 @@ html{
     min-height:100%;
     position:relative;
     margin: auto;
-    3}
+}
 
 #main_index{
     padding-top: 50px;
@@ -35,10 +35,9 @@ html{
     margin: auto;
 }
 
-.about_app{
-    margin: auto;
-    font-size: 22px;
-    width: 75%;
+#about_list{
+    display:table;
+    margin:0px auto 0px auto;
 }
 
 h1 {
@@ -140,6 +139,16 @@ a {color: rgba(32, 20, 11, 0.85)
     text-align: center;
 }
 
+#email_style{
+    color: #666666;
+    font-style: italic;
+}
+
+.about_app{
+    margin: 0 auto;
+    width: 75%;
+}
+
 .roundrect {
     border-radius: 25px;
 }
@@ -150,7 +159,7 @@ a {color: rgba(32, 20, 11, 0.85)
 }
 
 hr {
-    margin-left: 5%
+    margin-left: 5%;
     width: 90%;
     height: 2px;
     margin: 40px;
@@ -158,7 +167,7 @@ hr {
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
     background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
     background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
-    background: linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
     border: 0;
 }
 
@@ -168,6 +177,15 @@ hr.style-one {
     margin: 0;
     margin-bottom: 5px;
     box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+#style_index{
+    color: #ECE9E6;
+    background: rgba(32, 24, 23, 0.85);
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+
 }
 
 /*End of custom settings */
@@ -265,6 +283,7 @@ footer {
     width: 100%;
     height: 170px;
     text-align: center;
+    font-size: small;
 }
 
 /*End of footer styling*/
@@ -551,7 +570,7 @@ article.relative {
 .slides {
     padding: 0;
     width: 60%;
-    height: 320px;
+    height: 380px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -574,7 +593,7 @@ article.relative {
     top: 0;
     opacity: 0;
     width: 100%;
-    height: 320px;
+    height: 380px;
     display: block;
     position: absolute;
     transform: scale(0);
@@ -667,17 +686,15 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #imageContainer {
-    background: #66fdff;
     text-align: center;
     background-image: url("../images/crus4.jpg");
     background-size: 100% 100%, cover;
-    color: #65ff00;
+    color: #f8ff11;
     background-repeat: no-repeat;
 }
 
 #imageContainer1 {
     text-align: center;
-    background: #66fdff;
     background-image: url("../images/crus1.jpg");
     background-size: 100% 100%, cover;
     background-repeat: no-repeat;
@@ -685,7 +702,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #imageContainer2 {
     text-align: center;
-    background: #66fdff;
     background-image: url("../images/crus3.jpg");
     background-size: 100% 100%, cover;
     background-repeat: no-repeat;
@@ -693,7 +709,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #imageContainer3 {
     text-align: center;
-    background: #66fdff;
     background-image: url("../images/crus2.jpg");
     background-size: 100% 100%, cover;
     background-repeat: no-repeat;
@@ -701,7 +716,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #imageContainer4 {
     text-align: center;
-    background: #66fdff;
     background-image: url("../images/crus5.jpg");
     background-size: 100% 100%, cover;
     background-repeat: no-repeat;
@@ -709,7 +723,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #imageContainer5 {
     text-align: center;
-    background: #66fdff;
     background-image: url("../images/crus6.jpg");
     background-size: 100% 100%, cover;
     background-repeat: no-repeat;
