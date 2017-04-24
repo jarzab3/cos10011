@@ -9,34 +9,54 @@
 /*get variables from form and check rules*/
 
 //This should be really be calculated securely on the server!
-function calcCost(trips, partySize){
-    var cost = 0;
-    if (trips.search("1day") != -1) cost = 200;
-    if (trips.search("4day")!= -1) cost += 1500;
-    if (trips.search("10day")!= -1) cost += 3000;
-    return cost * partySize;
-}
 
-function storeBooking(firstname, lastname, species, age, is1day, is4day, is10day) {
+
+function storeBooking(firstname, lastname, species, age, trips, food, partySize) {
+
+    var trip = "";
+    var count = 0;
+
+    if (trips[0]) {
+        trip += '1 day';
+        count += 1;
+    }
+
+    if (trips[1]) {
+        if (count > 0) {
+            trip += " and 4 day"
+
+        } else {
+            trip += '4 day';
+        }
+        count += 1;
+    }
+
+    if (trips[2]) {
+        if (count > 0) {
+            trip += " and 10 day"
+
+        } else {
+            trip += '10 day';
+        }
+        count += 1;
+    }
+
+    if (count > 1) {
+        trip = " are " + trip;
+    } else {
+        trip = " is " + trip;
+    }
 
     sessionStorage.firstname = firstname;
     sessionStorage.lastname = lastname;
     sessionStorage.age = age;
     sessionStorage.species = species;
-
-    alert(species);
-
-    var trip = "";
-
-    // if(is1day){trip += ' is 1 day';}
-    // if(is4day){trip += ' is 4 day';}
-    // if(is10day){trip += ' is 10 day';}
-
-    alert(is1day);
-    alert(is4day);
-    alert(is10day);
+    sessionStorage.trip = trip;
+    sessionStorage.food = food;
+    sessionStorage.partySize = partySize;
 
 }
+
 
 function validate() {
 
@@ -46,6 +66,8 @@ function validate() {
     var lastname = document.getElementById('lastname').value;
     var age = document.getElementById('age').value;
     var beard_size = document.getElementById('beard').value;
+    var food = document.getElementById('food').value;
+    var partySize = document.getElementById('partySize').value;
 
     var species_choices;
 
@@ -56,10 +78,11 @@ function validate() {
         4: "Elf"
     };
 
-
     var is1day = document.getElementById("1day").checked;
     var is4day = document.getElementById("4day").checked;
     var is10day = document.getElementById("10day").checked;
+
+    var trips = [is1day, is4day, is10day];
 
     if (!firstname.match(/^[a-zA-Z]+$/)) {
         errorMsg = errorMsg + "Your first name must contain only alpha characters\n";
@@ -111,12 +134,11 @@ function validate() {
         alert(errorMsg);
     }
 
-
     if (result){
 
         var species = getSpecies();
 
-        storeBooking(firstname, lastname, age, species, is1day, is4day, is10day )
+        storeBooking(firstname, lastname, species, age, trips, food, partySize)
     }
 
     return result;

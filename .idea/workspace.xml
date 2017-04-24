@@ -8,17 +8,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa912a0c-857a-46c2-9e15-27a6cb5a4963" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/DSC_0002.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/construction.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/cruise_images/cruise1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/cruise_images/cruise2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/cruise_images/cruise3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/cruise_images/cruise4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/crus6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/giphy_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/giphy_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/giphy_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/swin1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/swin2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/swin3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/images/swin_map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/enhancements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/enquire.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/extra_files/responsive_example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/extra_files/sample_html_chierarchy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/about.html" afterPath="$PROJECT_DIR$/assign1/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/enquire.html" afterPath="$PROJECT_DIR$/assign1/enquire.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/index.html" afterPath="$PROJECT_DIR$/assign1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/product.html" afterPath="$PROJECT_DIR$/assign1/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/styles/style.css" afterPath="$PROJECT_DIR$/assign1/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_06/clickme.html" afterPath="$PROJECT_DIR$/lab_06/clickme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_07/Resources/confirm.html" afterPath="$PROJECT_DIR$/lab_07/Resources/confirm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_07/Resources/confirm.js" afterPath="$PROJECT_DIR$/lab_07/Resources/confirm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_07/Resources/notes" afterPath="$PROJECT_DIR$/lab_07/Resources/notes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_07/Resources/validator.js" afterPath="$PROJECT_DIR$/lab_07/Resources/validator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab_07/scripts/backup.js" afterPath="$PROJECT_DIR$/lab_07/scripts/backup.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +76,8 @@
       <file leaf-file-name="confirm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_07/Resources/confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -57,8 +86,58 @@
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_07/Resources/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+            <state relative-caret-position="158">
+              <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign2/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="474" column="45" lean-forward="false" selection-start-line="474" selection-start-column="45" selection-end-line="474" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-553">
+              <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enquire.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="160" column="76" lean-forward="false" selection-start-line="160" selection-start-column="76" selection-end-line="160" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign2/payment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign2/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -67,18 +146,8 @@
       <file leaf-file-name="validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assign1/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="345">
+              <caret line="170" column="65" lean-forward="true" selection-start-line="170" selection-start-column="65" selection-end-line="170" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -87,11 +156,9 @@
       <file leaf-file-name="confirm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_07/Resources/confirm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="83" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="87" />
-              <folding>
-                <element signature="n#!!doc;n#getBooking#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,14 +169,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>align_c</find>
       <find>451</find>
       <find>about</find>
       <find>foo</find>
@@ -139,6 +205,7 @@
       <find>alert</find>
       <find>getSpecies</find>
       <find>checkSpeciesAge</find>
+      <find>text</find>
     </findStrings>
     <replaceStrings>
       <replace>divBox</replace>
@@ -153,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab_02/files/bad_html.html" />
-        <option value="$PROJECT_DIR$/lab_02/css/task_2.css" />
-        <option value="$PROJECT_DIR$/lab_02/task_3.xml" />
         <option value="$PROJECT_DIR$/lab_03/css/assign1.css" />
         <option value="$PROJECT_DIR$/lab_03/assign1/index.html" />
         <option value="$PROJECT_DIR$/lab_03/files/styles/lab03.css" />
@@ -199,11 +263,14 @@
         <option value="$PROJECT_DIR$/lab_06/clickme.html" />
         <option value="$PROJECT_DIR$/lab_07/scripts/backup.js" />
         <option value="$PROJECT_DIR$/lab_07/scripts/confirm.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/register.html" />
         <option value="$PROJECT_DIR$/lab_07/Resources/confirm1.js" />
+        <option value="$PROJECT_DIR$/lab_07/Resources/validator.js" />
+        <option value="$PROJECT_DIR$/assign2/about.html" />
+        <option value="$PROJECT_DIR$/assign2/payment.html" />
+        <option value="$PROJECT_DIR$/lab_07/Resources/register.html" />
         <option value="$PROJECT_DIR$/lab_07/Resources/confirm.html" />
         <option value="$PROJECT_DIR$/lab_07/Resources/confirm.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/validator.js" />
+        <option value="$PROJECT_DIR$/assign2/enquire.html" />
       </list>
     </option>
   </component>
@@ -251,8 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,12 +340,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assign1" />
+              <option name="myItemId" value="assign2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cos10011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cos10011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assign2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,19 +383,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/adam/Documents/swinburne/cos10011/lab_03/index.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lab_07/Resources" />
-      <recent name="$PROJECT_DIR$/lab_07/scripts" />
-      <recent name="$PROJECT_DIR$/lab_03" />
-      <recent name="$PROJECT_DIR$/lab_03/files/styles" />
-      <recent name="$PROJECT_DIR$/lab_02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lab_07/Resources" />
       <recent name="$PROJECT_DIR$/lab_07/scripts" />
       <recent name="$PROJECT_DIR$/lab_06/resources" />
       <recent name="$PROJECT_DIR$/assign1/extra_files" />
       <recent name="$PROJECT_DIR$/lab_04/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assign2" />
+      <recent name="$PROJECT_DIR$/lab_07/Resources" />
+      <recent name="$PROJECT_DIR$/lab_07/scripts" />
+      <recent name="$PROJECT_DIR$/lab_03" />
+      <recent name="$PROJECT_DIR$/lab_03/files/styles" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.register.html">
@@ -575,7 +660,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08429858" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16023166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16216215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -614,36 +699,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assign1/styles/lab03.css" />
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/aria.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1031" column="22" lean-forward="false" selection-start-line="1031" selection-start-column="22" selection-end-line="1031" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/extra_files/responsive_example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="377" column="39" lean-forward="false" selection-start-line="377" selection-start-column="39" selection-end-line="377" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/extra_files/sample_html_chierarchy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_06/resources/css/product_style.css" />
     <entry file="file://$PROJECT_DIR$/lab_02/files/bad_html.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-477">
@@ -903,44 +958,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/css/nav_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_07/Resources/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab_07/Resources/confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="258">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab_07/Resources/confirm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="83" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="87" />
-          <folding>
-            <element signature="n#!!doc;n#getBooking#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+        <state relative-caret-position="330">
+          <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="170" column="65" lean-forward="true" selection-start-line="170" selection-start-column="65" selection-end-line="170" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/about.html">
+    <entry file="file://$PROJECT_DIR$/assign2/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="376">
+          <caret line="474" column="45" lean-forward="false" selection-start-line="474" selection-start-column="45" selection-end-line="474" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="160" column="76" lean-forward="false" selection-start-line="160" selection-start-column="76" selection-end-line="160" selection-end-column="76" />
           <folding />
         </state>
       </provider>
