@@ -6,7 +6,10 @@
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
+
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <script src="scripts/part1.js"></script>
+
 
     <title>Assignment_1 - The enquire website</title>
 
@@ -38,7 +41,7 @@
                 </td>
 
                 <td>
-                    <a href="enhancements.html">Enhancements</a>
+                    <a href="enhancements2.html">Enhancements</a>
                 </td>
             </tr>
         </table>
@@ -49,39 +52,39 @@
 
 <main id="main_container">
 
-    <section id="style_form">
+    <section class="style_form">
 
         <h2>Make an enquiry</h2>
 
-        <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+        <form id="enquire_form" action="payment.html">
 
             <label for="fname">First Name</label>
 
-            <input type="text" name= "First Name" id="fname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+            <input type="text" name= "First Name" id="fname" maxlength="25"/>
 
             <label for="lname">Last Name</label>
-            <input type="text" name= "Last Name" id="lname" maxlength="25" pattern="[a-zA-Z0-9 ]+" required="required"/>
+            <input type="text" name= "Last Name" id="lname" maxlength="25"/>
 
-            <label for="email">Email</label>
-            <input type="email" name= "Email addresss" id="email1" required="required"/>
+            <label for="email1">Email</label>
+            <input type="email" name= "Email addresss" id="email1"/>
 
             <br/>
             <br/>
 
-            <div id="fieldset_label">
+            <section id="fieldset_label">
                 <label > Address</label>
-            </div>
+            </section>
 
             <fieldset>
                 <label for="saddress">Street address</label>
-                <input type="text" name="Address" id="saddress" maxlength="40" required="required"/>
+                <input type="text" name="Address" id="saddress" maxlength="40"/>
 
                 <label for="suburb">Suburb/town</label>
-                <input type="text" name= "Suburb" id="suburb" maxlength="20" required="required"/>
+                <input type="text" name= "Suburb" id="suburb" maxlength="20"/>
 
                 <label for="state">State</label>
-                <select required='required' id="state" name="State">
-                    <option value="">Please select</option>
+                <select id="state" name="State">
+                    <option value="none">Please select</option>
                     <option value="VIC">VIC</option>
                     <option value="NSW">NSW</option>
                     <option value="QLD">QLD</option>
@@ -93,7 +96,7 @@
                 </select>
 
                 <label for="postcode">Postcode</label>
-                <input type="text" name= "Postcode" id="postcode" maxlength="4" pattern="\d{4}" required="required" placeholder="Postcode"/>
+                <input type="text" name= "Postcode" id="postcode" maxlength="4" placeholder="Postcode"/>
 
             </fieldset>
 
@@ -101,11 +104,11 @@
 
             <label>Preferred contact</label>
 
-            <fieldset>
+            <fieldset id="preferredContact">
 
                 <p>
-                    <label for="email">Email</label>
-                    <input type="radio" id="email" name="Contact" required="required" value="email" checked='checked'/>
+                    <label for="emailP">Email</label>
+                    <input type="radio" id="emailP" name="Contact" value="email" checked='checked'/>
                     <span>
             <label for="post">Post</label>
                 <input type="radio" id="post" name="Contact" value="post"/>
@@ -121,43 +124,86 @@
 
             <br/>
 
-            <label for="phone">Phone number</label>
-            <input type="text" name= "Phone Number" id="phone1" maxlength="10" required="required" pattern="\d{1,10}" placeholder="Phone number"/>
+            <label for="phoneNumber">Phone number</label>
+            <input type="text" name="Phone Number" id="phoneNumber" maxlength="10" placeholder="Phone number"/>
             <br/>
-            <label for="pro_serv">Product/Service</label>
-            <select id="pro_serv" name="Product/service">
-                <option value="">Please select</option>
-                <option value="service1">Serice 1</option>
-                <option value="service2">Service 2</option>
+
+            <label for="productService">Product/Service</label>
+            <select id="productService" name="Product/service" onchange="updateCruisePrice()">
+                <option value="none">Please select</option>
+                <option value="op1">Norway</option>
+                <option value="op2">Greece</option>
+                <option value="op3">Africa</option>
+                <option value="op4">Antarctica</option>
             </select>
 
-            <br/>
-            <br/>
-            <label>Product features/extras</label>
+            <section id="priceInfo">
+                <p id="info">Selected cruise: -</p>
+                <p id="info1"></p>
+            </section>
 
-            <fieldset>
-                <p class="align_center">
+            <h3 class="align_center">Number of Passengers</h3>
 
-                    <label for="pfx1">Extra 1</label>
-                    <input type="checkbox" id="pfx1" name="Product 1" value="something" checked='checked'/>
-                    <span>
-            <label for="pfx2">Extra 2</label>
-                <input type="checkbox" id="pfx2" name="Product 2" value="something"/>
-                </span>
+            <section class="align_center_table">
+                <table>
+                    <tr>
+                        <th>Adults ( +18 years )</th>
+                        <td>
+                            <input type="number" id="noPeople" value="0" size="1" min="0" max="21"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Children (0 - 17 years )</th>
+                        <td>
+                            <input type="number" id="noPeople1" value="0" size="1" min="0" max="21"/>
+                        </td>
+                    </tr>
+                </table>
+            </section>
 
-                    <span>
-            <label for="pfx3">Extra 3</label>
-                <input type="checkbox" id="pfx3" name="Product 3" value="something"/>
-                </span>
+            <br>
+            <br>
+            <label>Extras avaiable</label>
 
-                </p>
+            <fieldset id="extrasal">
+                <section class="align_center_table" id="cabins">
+
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="extra1">Outside Cabin</label>
+                                <input type="checkbox" id="extra1" name="extra1" value="extra1"/>
+                            </th>
+                            <th>
+                                <label for="extra2">Insurance</label>
+                                <input type="checkbox" id="extra2" name="extra2" value="extra2"/>
+                            </th>
+                            <th>
+                                <label for="extra3">Transfer</label>
+                                <input type="checkbox" id="extra3" name="extra3" value="extra3"/>
+                            </th>
+                            <th>
+                                <label for="extra4">Mini bar</label>
+                                <input type="checkbox" id="extra4" name="extra4" value="extra4"/>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>add 10% to price</td>
+                            <td>add 300$ to price</td>
+                            <td>add 10% to price</td>
+                            <td>Included</td>
+                        </tr>
+
+                    </table>
+                </section>
 
             </fieldset>
 
             <br/>
             <br/>
             <section>
-                <label for="comm" style="display:block">Comments</label>
+                <label for="comm">Comments</label>
                 <textarea class="comments" id="comm" name="Comments" rows="5" cols="110" placeholder="Write your comments here."></textarea>
             </section>
 
@@ -165,12 +211,12 @@
             <br/>
             <br/>
 
-            <div class="align_center">
+            <section class="align_center">
             <span>
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="Pay Now"/>
            <input type="reset" value="Reset"/>
            </span>
-            </div>
+            </section>
 
         </form>
 

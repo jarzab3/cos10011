@@ -48,7 +48,7 @@ function prefill_form() {
 
 function cancelBooking(){
 
-    window.location = "register.html";
+    window.location = "../../lab_07/Resources/register.html";
 
 }
 

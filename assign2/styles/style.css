@@ -21,6 +21,7 @@ body {
 
 html{
     overflow-y: scroll;
+    height: 100%;
 }
 
 #main_container {
@@ -185,7 +186,6 @@ hr.style-one {
     width: 85%;
     margin: 0 auto;
     padding: 20px;
-
 }
 
 /*End of custom settings */
@@ -211,7 +211,6 @@ input[type=email], select {
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 15px;
-
 }
 
 input[type=submit] {
@@ -222,18 +221,25 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 15px;
+}
 
+button[type=button] {
+    width: 40%;
+    background-color: rgba(255, 254, 250, 0.91);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
 
 input[type=radio] {
     margin-right: 100px;
-    border: 0px;
     width: 17px;
     height: 17px;
 }
 
 input[type=checkbox] {
-    border: 0px;
     width: 17px;
     height: 17px;
 }
@@ -244,10 +250,26 @@ input[type=reset] {
     padding: 14px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    /*cursor: pointer;*/
+}
+
+input[type=number] {
+    text-align: center;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    background-color: rgba(255, 254, 250, 0.91);
+    padding: 14px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    /*cursor: pointer;*/
 }
 
 input[type=submit]:hover {
+    background-color: #847885;
+}
+
+button[type=button]:hover {
     background-color: #847885;
 }
 
@@ -255,7 +277,7 @@ input[type=reset]:hover {
     background-color: #847885;
 }
 
-#style_form{
+.style_form{
     color: #ECE9E6;
     background: rgba(32, 24, 23, 0.85);
     width: 50%;
@@ -266,7 +288,7 @@ input[type=reset]:hover {
 #fieldset_label {
     font-size: 170%;
     color: white;
-    text-align: center
+    text-align: center;
 }
 
 .align_center {
@@ -274,6 +296,113 @@ input[type=reset]:hover {
 }
 
 /*Form styles ends here*/
+
+
+
+/*The payment page styling*/
+
+
+
+#style_form_payment{
+    color: #2f1b34;
+    /*background: rgba(32, 24, 23, 0.06);*/
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.test{
+    background:url(../images/payment/card.png) no-repeat;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    height: 450px;
+    border: none;
+    background-size: 100% 100%, cover;
+}
+
+#cardNumber{
+    background: transparent;
+    position: relative;
+    top: 280px;
+    width: 75%;
+    left: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cname{
+    background: transparent;
+    position: relative;
+    width: 45%;
+    top: 320px;
+    left: 30px;
+    text-align: center;
+}
+
+#ctype{
+    background: transparent;
+    position: relative;
+    width: 18%;
+    top: 320px;
+    left: 5%;
+    text-align: center;
+}
+
+#cvv{
+    background: transparent;
+    position: relative;
+    width: 13%;
+    left: 18%;
+    text-align: center;
+}
+
+#expires{
+    background: transparent;
+    position: relative;
+    width: 15%;
+    top: 280px;
+    left: 10%;
+    text-align: center;
+}
+
+/*End of payment the page styling*/
+
+
+
+/*Additional form styling*/
+
+#priceInfo {
+    font-size: 18px;
+    text-align: center;
+    min-height: 100px;
+}
+#priceInfo sup{
+    font-size: 11px;
+    color: #95f5ff;
+}
+
+.align_center_table {
+    text-align: center;
+    width: 100%;
+
+}
+
+.align_center_table table{
+    margin: 0 auto;
+    border-spacing: 13px;
+}
+#cabins td{
+    width: 10%;
+}
+#style_form table, th, td {
+    /*border: 1px solid black;*/
+    margin: 15px;
+}
+
+/*End of additional form styling*/
+
 
 /*Footer styling*/
 
@@ -360,6 +489,8 @@ footer {
     color: #000780;
 }
 
+/*modal part*/
+
 .modalDialog {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -376,6 +507,24 @@ footer {
     pointer-events: none;
 }
 
+.style_form > .modalDialog{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("images/back_pay.jpg");
+    background-size: 100% 100%, cover;
+    background-repeat: no-repeat;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
 .modalDialog:target {
     opacity: 1;
     pointer-events: auto;
@@ -383,6 +532,7 @@ footer {
 
 .modalDialog > section {
     width: 55%;
+    /*height: 50%;*/
     position: relative;
     margin: auto;
     margin-top: 3%;
@@ -392,6 +542,20 @@ footer {
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
+}
+
+.style_form .modalDialog > section {
+    width: 55%;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    background: transparent
+    /*background: #b7ffff;*/
+    /*background: -moz-linear-gradient(#cefdff, rgba(153, 129, 18, 0.09));*/
+    /*background: -webkit-linear-gradient(#59f3ff, #909998);*/
+    /*background: -o-linear-gradient(#62ffe7, #009985);*/
 }
 
 .close {
@@ -412,6 +576,7 @@ footer {
     -webkit-box-shadow: 1px 1px 3px #000;
     box-shadow: 1px 1px 3px #000;
 }
+
 .close:hover {
     background: #00d9ff;
 }
@@ -421,7 +586,6 @@ footer {
     width: 100%;
     height: 100%;
     display: table;
-
 }
 
 .sectionBox a
@@ -440,6 +604,8 @@ footer {
     text-decoration: underline overline;
     color: yellowgreen;
 }
+
+/*end of modal*/
 
 .img_product {
     width:80%;
@@ -577,7 +743,7 @@ article.relative {
 }
 
 .slides * {
-    user-select: none;
+    /*user-select: none;*/
     -ms-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -730,3 +896,4 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 /*End of section for index page*/
+

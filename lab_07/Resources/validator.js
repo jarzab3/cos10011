@@ -57,7 +57,6 @@ function storeBooking(firstname, lastname, species, age, trips, food, partySize)
 
 }
 
-
 function validate() {
 
     var errorMsg = '';
