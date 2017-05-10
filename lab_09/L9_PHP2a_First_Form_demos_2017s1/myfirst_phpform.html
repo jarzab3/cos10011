@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>My First PHP Form</title>
+	<!-- Other meta here -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<!-- Web page starts here -->
+	<h1>My First PHP Form</h1>
+	
+	<!-- just a regular HTML form -->
+	<form method="post" action="php_process_myfirst_phpform.php">
+		<p><label for="firstname">Enter First Name:</label>
+			<input type="text" id ="firstname" name="fname" />
+		</p>
+		<p><label for="lastname">Enter Last Name:</label>
+			<input type="text" id ="lastname" name="lname" />
+		</p>
+		<p><label for="favnumber">Enter Favourite Number:</label>
+			<input type="text" id ="favnumber" name="favnum" />
+		</p>
+		<p>
+			<input type="submit" value="Process" />
+		</p>
+	</form>
+</body>
+</html>

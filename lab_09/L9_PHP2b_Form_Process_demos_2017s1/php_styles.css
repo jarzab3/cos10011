@@ -1,0 +1,28 @@
+/*  Styles for PHP Form Demos */
+#start {
+  color: black;
+  background-color: white;
+  margin-bottom: 6ex;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  
+}
+body {
+  color: black;
+  background-image: url('swin.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: white;
+  margin-bottom: 6ex;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  
+}
+
+h1 {
+  color: #039;
+  margin-bottom: 2ex;
+  }
+
+.wrong {color:red;}
+.right {color:olive;}
