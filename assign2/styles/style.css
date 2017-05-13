@@ -253,10 +253,29 @@ input[type=reset] {
     /*cursor: pointer;*/
 }
 
+#buttons_pay_page input[type=reset] {
+    width: 40%;
+    background-color: rgb(5, 88, 92);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    /*cursor: pointer;*/
+}
+
+#buttons_pay_page button[type=button] {
+    width: 40%;
+    background-color: rgb(5, 88, 92);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+#buttons_pay_page button a{
+    text-decoration: none;
+}
+
 input[type=number] {
     text-align: center;
-    /*display: block;*/
-    /*margin: 0 auto;*/
     background-color: rgba(255, 254, 250, 0.91);
     padding: 14px 20px;
     font-size: 15px;
@@ -297,55 +316,130 @@ input[type=reset]:hover {
 
 /*Form styles ends here*/
 
+/*Payment table styling*/
 
+table#payment_table{
+    width: 100%;
+}
+
+#payment_table td{
+    width:40%;
+}
+
+#card_payment_section{
+    /*min-height: 400px;*/
+    margin-right: 50%;
+    width: 55%;
+    /*height: 100%;*/
+    /*position: relative;*/
+    margin: auto;
+    /*margin-top: 3%;*/
+}
+
+
+/*End of payment table styling*/
 
 /*The payment page styling*/
 
-
-
-#style_form_payment{
-    color: #2f1b34;
-    /*background: rgba(32, 24, 23, 0.06);*/
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
+.style_form > .modalDialog1{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("images/back_pay.jpg");
+    background-size: 100% 100%, cover;
+    background-repeat: no-repeat;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
 }
 
+
+.modalDialog1:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog1 > section {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.style_form .modalDialog1 > section {
+    width: 55%;
+    height: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+#style_form_payment{
+    /*color: #2f1b34;*/
+    /*background: rgba(32, 24, 23, 0.06);*/
+    /*width: 50%;*/
+    /*margin: 0 auto;*/
+    /*padding: 20px;*/
+}
+
+#buttons_pay_page{
+    top:80%;
+    position: fixed;
+    width: 68%;
+    /*margin-top: 400px;*/
+}
 
 .test{
     background:url(../images/payment/card.png) no-repeat;
     border-radius: 20px;
-    width: 80%;
-    margin-left: 10%;
-    height: 450px;
+    width: 51%;
+    margin-left: 2%;
+    position: fixed;
+    height: 55%;
     border: none;
     background-size: 100% 100%, cover;
 }
 
-#cardNumber{
+#card_number{
     background: transparent;
     position: relative;
-    top: 280px;
+    top: 62%;
     width: 75%;
-    left: 60px;
+    left: 10%;
     font-size: 20px;
     text-align: center;
 }
 
-#cname{
+#card_name{
     background: transparent;
     position: relative;
     width: 45%;
-    top: 320px;
-    left: 30px;
+    top: 66%;
+    left: 5%;
     text-align: center;
 }
 
-#ctype{
+#card_type{
     background: transparent;
     position: relative;
     width: 18%;
-    top: 320px;
+    top: 67%;
     left: 5%;
     text-align: center;
 }
@@ -362,13 +456,12 @@ input[type=reset]:hover {
     background: transparent;
     position: relative;
     width: 15%;
-    top: 280px;
-    left: 10%;
+    top: 66%;
+    left: 13%;
     text-align: center;
 }
 
 /*End of payment the page styling*/
-
 
 
 /*Additional form styling*/
@@ -403,7 +496,6 @@ input[type=reset]:hover {
 
 /*End of additional form styling*/
 
-
 /*Footer styling*/
 
 footer {
@@ -414,9 +506,7 @@ footer {
     text-align: center;
     font-size: small;
 }
-
 /*End of footer styling*/
-
 
 /*Timetable styling*/
 
@@ -493,30 +583,13 @@ footer {
 
 .modalDialog {
     position: fixed;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-
-.style_form > .modalDialog{
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("images/back_pay.jpg");
-    background-size: 100% 100%, cover;
-    background-repeat: no-repeat;
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -532,8 +605,6 @@ footer {
 
 .modalDialog > section {
     width: 55%;
-    /*height: 50%;*/
-    position: relative;
     margin: auto;
     margin-top: 3%;
     padding: 5px 20px 10px 20px;
@@ -542,20 +613,6 @@ footer {
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
-}
-
-.style_form .modalDialog > section {
-    width: 55%;
-    position: relative;
-    margin: auto;
-    margin-top: 3%;
-    padding: 5px 20px 10px 20px;
-    border-radius: 10px;
-    background: transparent
-    /*background: #b7ffff;*/
-    /*background: -moz-linear-gradient(#cefdff, rgba(153, 129, 18, 0.09));*/
-    /*background: -webkit-linear-gradient(#59f3ff, #909998);*/
-    /*background: -o-linear-gradient(#62ffe7, #009985);*/
 }
 
 .close {
@@ -894,6 +951,4 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background-repeat: no-repeat;
 }
 
-
 /*End of section for index page*/
-

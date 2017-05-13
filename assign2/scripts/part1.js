@@ -130,16 +130,6 @@ function totalCost(noPeople, noPeople1, cruise, extras) {
 
     total = priceAdults + priceChildren;
 
-    // var i;
-    // for(i = 0; i < extras.length; i++){
-    //     if (extras[0] == true){
-    //
-    // }
-    // 10%
-    //                         <td>add 300$ to price</td>
-    //                         <td>add 10% to price</td>
-
-
     return total;
 }
 
@@ -228,134 +218,165 @@ function validate() {
     prefContact = getPreferredContact();
 
     if (errorMsg == '') {
-        storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number, prefContact, totalPrice)
+        storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number, prefContact, totalPrice);
     }
 
     return result;
 }
 
 function validate_pay() {
+
     var errorMsg = "";
     var result = true;
 
-    var cardNumber = document.getElementById('cardNumber').value;
-    var cname = document.getElementById('cname').value;
+    var card_number = document.getElementById('card_number').value;
+    var card_name = document.getElementById('card_name').value;
     var expires = document.getElementById('expires').value;
+    var cvv = document.getElementById('cvv').value;
+    var card_type = document.getElementById('card_type').value;
 
-    if (!cardNumber.match(/^\d[4]+$/)) {
+    if (!card_number.match(/^\d{16}/)) {
         errorMsg = errorMsg + "Your card number is incorrect\n";
         result = false;
     }
-    if (!cname.match(/^[a-zA-Z]+$/)) {
+
+    if (!card_name.match(/^[a-zA-Z]+$/)) {
         errorMsg = errorMsg + "Your name is incorrect\n";
         result = false;
     }
 
+    if (!cvv.match(/^\d{3}/)) {
+        errorMsg = errorMsg + "Your cvv number is incorrect\n";
+        result = false;
+    }
+
+    if (errorMsg != '') {
+        alert(errorMsg);
+    }
+
+    if (errorMsg == '') {
+        storeCardData(card_number, card_name, expires, cvv, card_type);
+    }
 
     return result;
 }
 
+function cancelBooking() {
 
+    window.location = "enquire.html";
 
-    function cancelBooking() {
+}
 
-        window.location = "enquire.html";
+function storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number, preferredContact, totalPrice) {
 
-    }
+    var totalPeople = Number(noPeople) + Number(noPeople1);
 
-    function storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number, preferredContact, totalPrice) {
+    sessionStorage.firstName = firstname;
+    sessionStorage.lastname = lastname;
+    sessionStorage.email = email;
+    sessionStorage.street = street;
+    sessionStorage.suburb = suburb;
+    sessionStorage.state = state;
+    sessionStorage.postcode = postcode;
+    sessionStorage.cruise = cruise;
+    sessionStorage.totalPeople = totalPeople;
+    sessionStorage.number = number;
+    sessionStorage.preferredContact = preferredContact;
+    sessionStorage.totalPrice = totalPrice;
+}
 
-        var totalPeople = Number(noPeople) + Number(noPeople1);
+function storeCardData(card_number, card_name, expires, cvv, card_type) {
+    sessionStorage.card_number = card_number;
+    sessionStorage.card_name = card_name;
+    sessionStorage.expires = expires;
+    sessionStorage.cvv = cvv;
+    sessionStorage.card_type = card_type;
+}
 
-        sessionStorage.firstname = firstname;
-        sessionStorage.lastname = lastname;
-        sessionStorage.email = email;
-        sessionStorage.street = street;
-        sessionStorage.suburb = suburb;
-        sessionStorage.state = state;
-        sessionStorage.postcode = postcode;
-        sessionStorage.cruise = cruise;
-        sessionStorage.totalPeople = totalPeople;
-        sessionStorage.number = number;
-        sessionStorage.preferredContact = preferredContact;
-        sessionStorage.totalPrice = totalPrice;
+function getBooking() {
 
-    }
-
-
-    function getBooking() {
-
-        if (sessionStorage.firstname != undefined) {
-            var cruise_full = "";
-            switch (sessionStorage.cruise) {
-                case "op1":
-                    cruise_full = "Norway";
-                    break;
-                case "op2":
-                    cruise_full = "Greece";
-                    break;
-                case "op3":
-                    cruise_full = "Africa";
-                    break;
-                case "op4":
-                    cruise_full = "Antarctica";
-                    break;
-                default:
-                    cruise_full = "Poland";
-            }
-            document.getElementById("confirm_name").textContent = sessionStorage.firstname + " " + sessionStorage.lastname;
-            document.getElementById("cname").value = sessionStorage.firstname + " " + sessionStorage.lastname;
-            document.getElementById("c_email").textContent = sessionStorage.email;
-            document.getElementById("c_number").textContent = sessionStorage.number;
-            document.getElementById("c_postcode").textContent = sessionStorage.postcode;
-            document.getElementById("c_cruise").textContent = cruise_full;
-            document.getElementById("c_noPeople").textContent = sessionStorage.totalPeople;
-            document.getElementById("c_confirm_cost").textContent = sessionStorage.totalPrice;
-
-
-            // cost = calcCost(sessionStorage.trip, sessionStorage.partySize);
-            // document.getElementById("confirm_cost").textContent = cost;
-
-            /*
-             Write lastname, age, species, age, food, and partySize from seesionStorage to the hidden inputs
-             */
-
-            // document.getElementById("cost").value = cost;
-
-        }
-    }
-
-
-    function prefill_form() {
-        if (sessionStorage.firstname != undefined) {
-            document.getElementById("firstname").value = sessionStorage.firstname;
-            document.getElementById("lastname").value = sessionStorage.lastname;
-            document.getElementById("c_number").value = sessionStorage.number;
-            document.getElementById("c_postcode").value = sessionStorage.postcode;
-            document.getElementById("c_cruise").value = sessionStorage.cruise;
-            document.getElementById("total_cost").value = sessionStorage.totalPrice;
-        }
-    }
-
-
-    function init() {
-
-        if (window.location.pathname == '/cos10011/assign2/enquire.html') {
-            var regForm = document.getElementById("enquire_form");
-            regForm.onsubmit = validate;
+    if (sessionStorage.firstName != undefined) {
+        var cruise_full = "";
+        switch (sessionStorage.cruise) {
+            case "op1":
+                cruise_full = "Norway";
+                break;
+            case "op2":
+                cruise_full = "Greece";
+                break;
+            case "op3":
+                cruise_full = "Africa";
+                break;
+            case "op4":
+                cruise_full = "Antarctica";
+                break;
+            default:
+                cruise_full = "Poland";
         }
 
-        if (window.location.pathname == '/cos10011/assign2/payment.html') {
-            getBooking();
+        document.getElementById("confirm_name").textContent = sessionStorage.firstName + " " + sessionStorage.lastname;
+        document.getElementById("c_email").textContent = sessionStorage.email;
+        document.getElementById("c_number").textContent = sessionStorage.number;
+        document.getElementById("c_postcode").textContent = sessionStorage.postcode;
+        document.getElementById("c_cruise").textContent = cruise_full;
+        document.getElementById("c_noPeople").textContent = sessionStorage.totalPeople;
+        document.getElementById("c_confirm_cost").textContent = sessionStorage.totalPrice;
 
-            document.getElementById("cancelButton").addEventListener("click", cancelBooking);
+    }
+}
 
+function getCardDetails() {
 
-            document.getElementById("confirmBooking").addEventListener("click", validate_pay);
+    document.getElementById("confirm_card_no").textContent = sessionStorage.card_number;
+    document.getElementById("confirm_card_name").textContent = sessionStorage.card_name;
+    document.getElementById("confirm_expires").textContent = sessionStorage.expires;
+    document.getElementById("confirm_card_type").textContent = sessionStorage.card_type;
 
+}
 
-        }
+function prefill_form() {
+    if (sessionStorage.firstName != undefined) {
+        // document.getElementById("p_firstname").value = sessionStorage.firstName;
+        document.getElementById("p_lastname").value = sessionStorage.lastname;
+        document.getElementById("p_number").value = sessionStorage.number;
+        document.getElementById("p_postcode").value = sessionStorage.postcode;
+        document.getElementById("p_cruise").value = sessionStorage.cruise;
+        document.getElementById("p_noPeople").value = sessionStorage.totalPeople;
+        document.getElementById("p_confirm_cost").value = sessionStorage.totalPrice;
+    }
+    if (sessionStorage.card_number != undefined) {
+        document.getElementById("p_card_number").value = sessionStorage.card_number;
+        document.getElementById("p_card_name").value = sessionStorage.card_name;
+        document.getElementById("p_expires").value = sessionStorage.expires;
+        document.getElementById("p_cvv").value = sessionStorage.cvv;
+        document.getElementById("p_card_type").value = sessionStorage.card_type;
+    }
+}
+
+function init() {
+
+    if (window.location.pathname == '/cos10011/s101304282/assign2/enquire.html') {
+        var regForm = document.getElementById("enquire_form");
+        regForm.onsubmit = validate;
+    }
+
+    if (window.location.pathname == '/cos10011/s101304282/assign2/payment.html') {
+
+        getBooking();
+        document.getElementById("cancelButton").addEventListener("click", cancelBooking);
+
+        getCardDetails();
+
+        prefill_form();
 
     }
 
-    window.onload = init;
+    if (window.location.pathname == '/cos10011/s101304282/assign2/card_payment.html') {
+
+        var payForm = document.getElementById("payment_form");
+        payForm.onsubmit = validate_pay;
+
+    }
+}
+window.onload = init;
+
