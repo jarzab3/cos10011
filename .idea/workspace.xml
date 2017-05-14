@@ -8,32 +8,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa912a0c-857a-46c2-9e15-27a6cb5a4963" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign2/card_payment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/Lab11_links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/ReadMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/lab11.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/member_add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/member_add_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/member_display.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/member_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/member_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/sql_tests.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/examples/vip_member.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/number.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/numberdown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/numberreset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab_11/numberup.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assign1/styles/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assign1/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assign2/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assign2/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week_11/solution_lab11(2).zip" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/DSC_0002.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/construction.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin_map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/back_pay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/card_payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enhancements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enhancements2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enquire.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/scripts/part1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/payment.html" afterPath="$PROJECT_DIR$/assign2/payment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/scripts/part1.js" afterPath="$PROJECT_DIR$/assign2/scripts/part1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/styles/style.css" afterPath="$PROJECT_DIR$/assign2/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,57 +77,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="enquire.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign3/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
-              <caret line="139" column="36" lean-forward="true" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="910" column="17" lean-forward="true" selection-start-line="910" selection-start-column="17" selection-end-line="910" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign2/card_payment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign2/payment.html">
+        <entry file="file://$PROJECT_DIR$/assign3/payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="64" />
+            <state relative-caret-position="915">
+              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assign2/scripts/part1.js">
+      <file leaf-file-name="number.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab_11/number.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-              <folding>
-                <marker date="1494691795000" expanded="true" signature="519:525" ph=" " />
-                <marker date="1494691795000" expanded="true" signature="798:804" ph=" " />
-                <marker date="1494691795000" expanded="true" signature="1076:1082" ph=" " />
-                <marker date="1494691795000" expanded="true" signature="1350:1356" ph=" " />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assign1/enhancements.html" />
         <option value="$PROJECT_DIR$/assign1/index.html" />
         <option value="$PROJECT_DIR$/assign1/about.html" />
         <option value="$PROJECT_DIR$/assign1/product.html" />
@@ -224,6 +215,7 @@
         <option value="$PROJECT_DIR$/assign2/card_payment.html" />
         <option value="$PROJECT_DIR$/assign2/payment.html" />
         <option value="$PROJECT_DIR$/assign2/scripts/part1.js" />
+        <option value="$PROJECT_DIR$/assign3/about.php" />
       </list>
     </option>
   </component>
@@ -296,7 +288,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assign2" />
+              <option name="myItemId" value="lab_11" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,11 +302,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assign2" />
+              <option name="myItemId" value="assign3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cos10011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cos10011" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="assign3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,11 +346,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assign3" />
       <recent name="$PROJECT_DIR$/lab_11/examples" />
       <recent name="$PROJECT_DIR$/assign2" />
       <recent name="$PROJECT_DIR$/lab_07/Resources" />
       <recent name="$PROJECT_DIR$/lab_07/scripts" />
-      <recent name="$PROJECT_DIR$/lab_03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assign2" />
@@ -476,12 +482,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488879044925</updated>
       <workItem from="1494649132759" duration="9710000" />
-      <workItem from="1494662512213" duration="13303000" />
+      <workItem from="1494662512213" duration="14554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44569000" />
+    <option name="totallyTimeSpent" value="45820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +502,7 @@
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23671874" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453958" sideWeight="0.48472777" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2463651" sideWeight="0.48472777" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -564,28 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_06/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_06/clickme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js" />
     <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js" />
     <entry file="file://$PROJECT_DIR$/lab_07/scripts/backup.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_11/number.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_11/numberup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -833,7 +807,7 @@
     <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2085">
-          <caret line="139" column="36" lean-forward="true" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+          <caret line="139" column="36" lean-forward="false" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -841,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="910" column="17" lean-forward="true" selection-start-line="910" selection-start-column="17" selection-end-line="910" selection-end-column="17" />
+          <caret line="910" column="17" lean-forward="false" selection-start-line="910" selection-start-column="17" selection-end-line="910" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -862,16 +836,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/extra_files/responsive_example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assign2/scripts/part1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+        <state relative-caret-position="1508">
+          <caret line="353" column="5" lean-forward="true" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="5" />
           <folding>
-            <marker date="1494691795000" expanded="true" signature="519:525" ph=" " />
-            <marker date="1494691795000" expanded="true" signature="798:804" ph=" " />
-            <marker date="1494691795000" expanded="true" signature="1076:1082" ph=" " />
-            <marker date="1494691795000" expanded="true" signature="1350:1356" ph=" " />
+            <marker date="1494691930000" expanded="true" signature="519:525" ph=" " />
+            <marker date="1494691930000" expanded="true" signature="798:804" ph=" " />
+            <marker date="1494691930000" expanded="true" signature="1076:1082" ph=" " />
+            <marker date="1494691930000" expanded="true" signature="1350:1356" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/card_payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_11/number.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
