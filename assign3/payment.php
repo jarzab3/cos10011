@@ -11,43 +11,10 @@
     <script src="scripts/part1.js"></script>
 
 
-    <title>Assignment_2 - The product website</title>
+    <title>Payment</title>
 
 </head>
 <body>
-
-<header>
-
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td>
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td id="current">
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td>
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td>
-                    <a href="about.php">About</a>
-                </td>
-
-                <td>
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr/>
 
 <main>
     <h1>Confirm your purchase</h1>
@@ -97,7 +64,7 @@
                 <br/>
                 <section class="align_center">
 
-                    <button type="button"><a href="card_payment.html">Pay Now</a></button>
+                    <button type="button"><a href="card_payment.php">Pay Now</a></button>
                     <button type="button" id="cancelButton">Cancel</button>
 
                 </section>

@@ -11,44 +11,14 @@
     <script src="scripts/part1.js"></script>
 
 
-    <title>Assignment_1 - The enquire website</title>
+    <title>Assignment_2 - The enquire website</title>
 
 </head>
 
 <body>
 
-<header>
+<?php include 'header.inc';?>
 
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td>
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td id="current">
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td>
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td>
-                    <a href="about.php">About</a>
-                </td>
-
-                <td>
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr />
 
 <main id="main_container">
 
@@ -56,7 +26,7 @@
 
         <h2>Make an enquiry</h2>
 
-        <form id="enquire_form" action="payment.html">
+        <form id="enquire_form" action="payment.php">
 
             <label for="fname">First Name</label>
 
@@ -161,8 +131,8 @@
                 </table>
             </section>
 
-            <br>
-            <br>
+            <br/>
+            <br/>
             <label>Extras avaiable</label>
 
             <fieldset id="extrasal">
@@ -219,7 +189,6 @@
             </section>
 
         </form>
-
     </section>
 
     <footer>

@@ -263,7 +263,8 @@ function validate_pay() {
 
 function cancelBooking() {
 
-    window.location = "enquire.html";
+    window.location = "index.html";
+    sessionStorage.clear();
 
 }
 
@@ -356,12 +357,12 @@ function prefill_form() {
 
 function init() {
 
-    if (window.location.pathname == '/cos10011/s101304282/assign2/enquire.html') {
+    if (window.location.pathname == '/cos10011/s101304282/assign2/enquire.php') {
         var regForm = document.getElementById("enquire_form");
         regForm.onsubmit = validate;
     }
 
-    if (window.location.pathname == '/cos10011/s101304282/assign2/payment.html') {
+    if (window.location.pathname == '/cos10011/s101304282/assign2/payment.php') {
 
         getBooking();
         document.getElementById("cancelButton").addEventListener("click", cancelBooking);
@@ -372,7 +373,7 @@ function init() {
 
     }
 
-    if (window.location.pathname == '/cos10011/s101304282/assign2/card_payment.html') {
+    if (window.location.pathname == '/cos10011/s101304282/assign2/card_payment.php') {
 
         var payForm = document.getElementById("payment_form");
         payForm.onsubmit = validate_pay;

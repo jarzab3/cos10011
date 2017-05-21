@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d0e05e6e-3f39-432d-823c-bb8362ea2829" name="cos" url="https://mercury.swin.edu.au/cos10011/s101304282">
+      <webServer id="d0e05e6e-3f39-432d-823c-bb8362ea2829" name="cos" url="https://mercury.swin.edu.au/cos10011/s101304282/">
         <fileTransfer host="s101304282@mercury.swin.edu.au" port="22" rootFolder="/home/students/accounts/s101304282/cos10011/www/htdocs" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />

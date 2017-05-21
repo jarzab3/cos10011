@@ -8,49 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa912a0c-857a-46c2-9e15-27a6cb5a4963" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/DSC_0002.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/construction.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/cruise_images/cruise4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/crus6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/giphy_3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/credit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/payment/images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/images/swin_map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/images/back_pay.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/card_payment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enhancements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enhancements2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/enquire.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/payment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/scripts/part1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/header.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assign3/menu.inc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assign1/extra_files/Assignment_1 - The enquire website.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assign3/enhancements2.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/card_payment.html" afterPath="$PROJECT_DIR$/assign3/card_payment.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/enhancements.html" afterPath="$PROJECT_DIR$/assign3/enhancements.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/enquire.html" afterPath="$PROJECT_DIR$/assign3/enquire.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/index.html" afterPath="$PROJECT_DIR$/assign3/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/payment.html" afterPath="$PROJECT_DIR$/assign3/payment.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/product.html" afterPath="$PROJECT_DIR$/assign3/product.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assign3/resources/COS10011_60004_60007 A3_2017s1_v2.pdf" afterPath="$PROJECT_DIR$/assign3/resources/requirements.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/extra_files/COS10011_60004_60007 A2_2017s1.pdf" afterPath="$PROJECT_DIR$/assign2/extra_files/COS10011_60004_60007 A2_2017s1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cos10011.iml" afterPath="$PROJECT_DIR$/.idea/cos10011.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/about.html" afterPath="$PROJECT_DIR$/assign1/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/enhancements.html" afterPath="$PROJECT_DIR$/assign1/enhancements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/enquire.html" afterPath="$PROJECT_DIR$/assign1/enquire.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/index.html" afterPath="$PROJECT_DIR$/assign1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign1/product.html" afterPath="$PROJECT_DIR$/assign1/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/about.html" afterPath="$PROJECT_DIR$/assign2/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/enhancements.html" afterPath="$PROJECT_DIR$/assign2/enhancements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/enquire.html" afterPath="$PROJECT_DIR$/assign2/enquire.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/index.html" afterPath="$PROJECT_DIR$/assign2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/payment.html" afterPath="$PROJECT_DIR$/assign2/payment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/product.html" afterPath="$PROJECT_DIR$/assign2/product.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign2/scripts/part1.js" afterPath="$PROJECT_DIR$/assign2/scripts/part1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign3/about.php" afterPath="$PROJECT_DIR$/assign3/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assign3/scripts/part1.js" afterPath="$PROJECT_DIR$/assign3/scripts/part1.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,31 +64,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign3/header.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enquire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign3/enquire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assign3/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="735">
+              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign3/payment.html">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign3/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="number.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_11/number.php">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign1/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign3/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign3/payment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enhancements.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign3/enhancements.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -120,27 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getSpecies</find>
-      <find>checkSpeciesAge</find>
-      <find>text</find>
-      <find>$days_eng</find>
-      <find>rese</find>
-      <find>cancel</find>
-      <find>confirmBooking</find>
-      <find>validate</find>
-      <find>op</find>
-      <find>open</find>
-      <find>o</find>
-      <find>Modal</find>
-      <find>background-size: 100% 100%, cover;test</find>
-      <find>form</find>
-      <find>is ther</find>
-      <find>,</find>
-      <find>hel</find>
-      <find>alert</find>
-      <find>card_payment_section</find>
-      <find>buttons_pay_page</find>
-      <find>mi</find>
       <find>min</find>
       <find>C</find>
       <find>test</find>
@@ -150,6 +166,27 @@
       <find>c_cr</find>
       <find>back</find>
       <find>background-ima</find>
+      <find>php</find>
+      <find>can</find>
+      <find>enquire</find>
+      <find>button</find>
+      <find>br</find>
+      <find>&lt;a href=&quot;enhancements2.php&quot;&gt;Enhancements&lt;/a&gt;</find>
+      <find />
+      <find>&lt;?php include 'menu.inc';?&gt;</find>
+      <find>&lt;?php include 'menu.inc';?&gt;</find>
+      <find>Assignment_2 - The enquire website</find>
+      <find>&lt;title&gt;Assignment_1 - The enquire website&lt;/title&gt;</find>
+      <find>&lt;title&gt;Assignment_1 - The enhancments&lt;/title&gt;</find>
+      <find>\&lt;title\&gt;Assignment 1 \- Main page \&lt;\/title\&gt;\n</find>
+      <find>&lt;title&gt;Assignment 1 - Main page &lt;/title&gt;</find>
+      <find>\&lt;title\&gt;Assignment_1 \- The product website\&lt;\/title\&gt;\n</find>
+      <find>&lt;title&gt;Assignment_1 - The product website&lt;/title&gt;</find>
+      <find>&lt;title&gt;Assignment_1 - The about website&lt;/title&gt;</find>
+      <find>\&lt;title\&gt;The product website\&lt;\/title\&gt;\n</find>
+      <find>&lt;title&gt;The product website&lt;/title&gt;</find>
+      <find>\&lt;title\&gt;Assignment_1 \- The enquire website\&lt;\/title\&gt;\n</find>
+      <find>&lt;title&gt;Assignment_1 - The enquire website&lt;/title&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>divBox</replace>
@@ -157,7 +194,17 @@
       <replace>.sub_container</replace>
       <replace>section</replace>
       <replace>$days_fr</replace>
+      <replace>&lt;a href=&quot;enhancements.php&quot;&gt;Enhancements&lt;/a&gt;</replace>
+      <replace>&lt;title&gt;The enhancements&lt;/title&gt;</replace>
+      <replace>&lt;title&gt;Main page &lt;/title&gt;</replace>
+      <replace>&lt;title&gt;The product website&lt;/title&gt;</replace>
+      <replace>&lt;title&gt;About&lt;/title&gt;</replace>
+      <replace>&lt;title&gt;Product&lt;/title&gt;</replace>
+      <replace>&lt;title&gt;Enquire&lt;/title&gt;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,34 +212,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assign1/index.html" />
-        <option value="$PROJECT_DIR$/assign1/about.html" />
-        <option value="$PROJECT_DIR$/assign1/product.html" />
-        <option value="$PROJECT_DIR$/lab_06/scripts/script.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/notes" />
-        <option value="$PROJECT_DIR$/lab_06/clickme.html" />
-        <option value="$PROJECT_DIR$/lab_07/scripts/backup.js" />
-        <option value="$PROJECT_DIR$/lab_07/scripts/confirm.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/confirm1.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/validator.js" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/register.html" />
-        <option value="$PROJECT_DIR$/lab_07/Resources/confirm.js" />
-        <option value="$USER_HOME$/Desktop/Ave, o Maria, piena di grazia, il Signore č con te" />
-        <option value="$PROJECT_DIR$/lab_08/myfirst.php.html" />
-        <option value="$PROJECT_DIR$/lab_08/dayarray.php" />
-        <option value="$PROJECT_DIR$/assign2/test.html" />
-        <option value="$PROJECT_DIR$/../../mdx_project/maya_project_modelling_mdx/maya_scripting_python.py" />
         <option value="$PROJECT_DIR$/lab_08/myfirst.php" />
         <option value="&lt;d0e05e6e-3f39-432d-823c-bb8362ea2829&gt;/lab_08/daysarray.php" />
         <option value="$PROJECT_DIR$/lab_08/daysarray.php" />
         <option value="$PROJECT_DIR$/hashan/index.html" />
-        <option value="$PROJECT_DIR$/assign2/enquire.html" />
         <option value="$PROJECT_DIR$/assign2/test.css" />
         <option value="&lt;d0e05e6e-3f39-432d-823c-bb8362ea2829&gt;/lab_08/mathfunctions.php" />
         <option value="$PROJECT_DIR$/assign2/about.html" />
         <option value="$PROJECT_DIR$/lab_08/mathfunctions.php" />
         <option value="$PROJECT_DIR$/lab_08/factorial.php" />
-        <option value="$PROJECT_DIR$/assign1/enquire.html" />
         <option value="$PROJECT_DIR$/lab_08/factorial.html" />
         <option value="$PROJECT_DIR$/lab_08/factorial_with_get.php" />
         <option value="$PROJECT_DIR$/lab_09/register.html" />
@@ -213,9 +241,28 @@
         <option value="$PROJECT_DIR$/card_payment.html" />
         <option value="$PROJECT_DIR$/assign2/styles/style.css" />
         <option value="$PROJECT_DIR$/assign2/card_payment.html" />
-        <option value="$PROJECT_DIR$/assign2/payment.html" />
+        <option value="$PROJECT_DIR$/assign3/about.html" />
         <option value="$PROJECT_DIR$/assign2/scripts/part1.js" />
+        <option value="$PROJECT_DIR$/assign2/payment.html" />
+        <option value="$PROJECT_DIR$/assign3/enquire.html" />
+        <option value="$PROJECT_DIR$/assign3/test.php" />
+        <option value="$PROJECT_DIR$/assign3/test.html" />
+        <option value="$PROJECT_DIR$/assign3/menu.php" />
+        <option value="$PROJECT_DIR$/assign3/menu.inc" />
+        <option value="$PROJECT_DIR$/assign3/header.php" />
         <option value="$PROJECT_DIR$/assign3/about.php" />
+        <option value="$PROJECT_DIR$/assign3/enquire.php" />
+        <option value="$PROJECT_DIR$/assign2/enquire.html" />
+        <option value="$PROJECT_DIR$/assign3/product.php" />
+        <option value="$PROJECT_DIR$/assign3/index.php" />
+        <option value="$PROJECT_DIR$/assign1/enhancements.html" />
+        <option value="$PROJECT_DIR$/assign2/enhancements.html" />
+        <option value="$PROJECT_DIR$/assign3/payment.php" />
+        <option value="$PROJECT_DIR$/assign1/index.html" />
+        <option value="$PROJECT_DIR$/assign1/about.html" />
+        <option value="$PROJECT_DIR$/assign1/product.html" />
+        <option value="$PROJECT_DIR$/assign1/enquire.html" />
+        <option value="$PROJECT_DIR$/assign3/enhancements.php" />
       </list>
     </option>
   </component>
@@ -226,11 +273,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$USER_HOME$/Downloads/Assignment 2" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="731" />
+    <option name="x" value="-362" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -266,6 +318,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,46 +342,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab_11" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cos10011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cos10011" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assign3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cos10011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cos10011" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assign3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +361,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/adam/Documents/swinburne/cos10011/lab_03/index.html" />
   </component>
   <component name="RecentsManager">
@@ -483,11 +503,17 @@
       <updated>1488879044925</updated>
       <workItem from="1494649132759" duration="9710000" />
       <workItem from="1494662512213" duration="14554000" />
+      <workItem from="1494804122730" duration="181000" />
+      <workItem from="1494805414346" duration="6834000" />
+      <workItem from="1495069884624" duration="6989000" />
+      <workItem from="1495085694071" duration="1328000" />
+      <workItem from="1495121139932" duration="743000" />
+      <workItem from="1495318417564" duration="6055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45820000" />
+    <option name="totallyTimeSpent" value="67950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,20 +525,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <frame x="-362" y="-1057" width="1920" height="1011" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23671874" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2463651" sideWeight="0.48472777" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21752739" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21658032" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3364632" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3368146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17518637" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548456" sideWeight="0.48472777" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19453125" sideWeight="0.51527226" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -521,7 +549,6 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -570,63 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js" />
-    <entry file="file://$PROJECT_DIR$/lab_07/scripts/backup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/css/nav_style.css" />
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/confirm.js" />
-    <entry file="file://$USER_HOME$/Desktop/Ave, o Maria, piena di grazia, il Signore č con te">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_08/myfirst.php.html" />
-    <entry file="file://$PROJECT_DIR$/lab_04/lab04task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_07/Resources/validator.js" />
-    <entry file="file://$PROJECT_DIR$/lab_08/buggysyntaxpalindrome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/test.html" />
-    <entry file="file://$PROJECT_DIR$/../../mdx_project/maya_project_modelling_mdx/maya_scripting_python.py" />
-    <entry file="file://$PROJECT_DIR$/lab_08/dayarray.php" />
-    <entry file="file://$PROJECT_DIR$/lab_08/myfirst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign2/scripts/part1.js" />
     <entry file="file://$PROJECT_DIR$/assign2/product.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign1/enquire.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="187" column="32" lean-forward="false" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -695,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_10/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_10/addcar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -713,36 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <marker date="1494420092000" expanded="true" signature="408:420" ph="insert into ${$sq}... " />
-            <marker date="1494420092000" expanded="true" signature="408:421" ph="insert into $... " />
-            <marker date="1494420092000" expanded="true" signature="408:424" ph="insert into ${$sql}... " />
-            <marker date="1494420092000" expanded="true" signature="408:501" ph="insert into ${$sql_table}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_10/car_display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1494423966000" expanded="true" signature="697:753" ph="select make,... cars" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_10/cars_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1494425123000" expanded="true" signature="1072:1184" ph="SELECT * FRO... articles" />
-            <marker date="1494425123000" expanded="true" signature="1072:1187" ph="SELECT * FRO... ${$sql_table}" />
-            <marker date="1494425123000" expanded="true" signature="1342:1784" ph="..." />
-            <marker date="1494425123000" expanded="true" signature="1361:1514" ph="..." />
-            <marker date="1494425123000" expanded="true" signature="1588:1753" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,87 +721,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="36" lean-forward="false" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="910" column="17" lean-forward="false" selection-start-line="910" selection-start-column="17" selection-end-line="910" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign2/card_payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/payment.html">
+    <entry file="file://$PROJECT_DIR$/assign3/extra_files/responsive_example.html" />
+    <entry file="file://$PROJECT_DIR$/assign3/scripts/part1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign3/extra_files/responsive_example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign2/scripts/part1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="353" column="5" lean-forward="true" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="5" />
-          <folding>
-            <marker date="1494691930000" expanded="true" signature="519:525" ph=" " />
-            <marker date="1494691930000" expanded="true" signature="798:804" ph=" " />
-            <marker date="1494691930000" expanded="true" signature="1076:1082" ph=" " />
-            <marker date="1494691930000" expanded="true" signature="1350:1356" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign3/card_payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign3/payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="235">
+          <caret line="208" column="23" lean-forward="false" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab_11/number.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/scripts/part1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5565">
+          <caret line="371" column="23" lean-forward="true" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="232" column="6" lean-forward="false" selection-start-line="232" selection-start-column="6" selection-end-line="233" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_10/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_10/cars_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/enhancements2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="73" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_10/car_display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1494423966000" expanded="true" signature="697:753" ph="select make,... cars" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/card_payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/menu.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/extra_files/Assignment_1 - The enquire website.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/enhancements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/enhancements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assign3/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="735">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign1/enquire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign2/enquire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/enquire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign3/enhancements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>

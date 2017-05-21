@@ -9,43 +9,13 @@
     <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
 
-    <title>Assignment_1 - The product website</title>
+    <title>Product</title>
 
 </head>
 <body>
 
-<header>
+<?php include 'header.inc';?>
 
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td>
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td>
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td id="current">
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td>
-                    <a href="about.php">About</a>
-                </td>
-
-                <td>
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr/>
 
 <main>
     <h1>Great Deals from SwinCruise</h1>
@@ -228,20 +198,20 @@
 
 </main>
 
-   <footer>
-        <hr/>
-        <p>
-            <strong>&#169;</strong>
-            <a  href="http://www.swinburne.edu.au/">
-                Swinburne Universty of Technology
-            </a>
-        </p>
+<footer>
+    <hr/>
+    <p>
+        <strong>&#169;</strong>
+        <a  href="http://www.swinburne.edu.au/">
+            Swinburne Universty of Technology
+        </a>
+    </p>
 
-        <p>  &#160;
-            &#160;
-            <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
-                Adam Jarzebak</a></p>
-    </footer>
+    <p>  &#160;
+        &#160;
+        <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
+            Adam Jarzebak</a></p>
+</footer>
 
 </body>
 </html>

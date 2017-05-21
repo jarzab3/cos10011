@@ -1,54 +1,19 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="description" content="Demonstrates knowledge from the scope of the html and css." />
-    <meta name="keywords" content="HTML5, CSS" />
-    <meta name="author" content="Adam Jarzebak"  />
+    <meta name="keywords" content="HTML5, CSS"/>
+    <meta name="author" content="Adam Jarzebak"/>
 
     <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
-    <title>Assignment_1 - The about website</title>
+    <title>About</title>
 
 </head>
 <body>
 
-<header>
-
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td>
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td>
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td>
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td id="current">
-                    <a href="about.php">About</a>
-                </td>
-
-                <td>
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr />
+<?php include 'header.inc';?>
 
 <main id="main_container">
 
@@ -482,7 +447,7 @@
         <p class="align_center">Below you can see the requirements for this assigment.</p>
         <br/>
 
-        <object height="950" data="extra_files/COS10011_60004_60007%20A2_2017s1.pdf" type="application/pdf" width="860">
+        <object height="950" data="resources/requirements.pdf" type="application/pdf" width="860">
             Your browser does not support this interface.<a href="https://ilearn.swin.edu.au/bbcswebdav/pid-6302642-dt-content-rid-35423528_2/courses/2017-HS1-COS10011-220385/COS10011_60004_60007%20A1_2017S1.pdf">click here to
             download the PDF file.</a>
 

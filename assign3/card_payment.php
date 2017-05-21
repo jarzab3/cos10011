@@ -21,7 +21,7 @@
 
     <section id="card_payment_section">
 
-        <form id="payment_form" action="payment.html">
+        <form id="payment_form" action="payment.php">
 
             <section class="test">
 

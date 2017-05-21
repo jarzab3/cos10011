@@ -9,46 +9,33 @@
     <link rel = "stylesheet" type="text/css" href="styles/style.css" />
 
 
-    <title>Assignment_2 - The enhancments</title>
+    <title>The enhancements</title>
 
 </head>
 
 <body>
 
-<header>
-
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td>
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td>
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td >
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td>
-                    <a href="about.php">About</a>
-                </td>
-
-                <td id="current">
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr/>
+<?php include 'header.inc';?>
 
 <main>
+
+    <h1>Enhancements</h1>
+
+    <section class="align_center">
+
+            <p>First enhancement is on first page and essentialy it is about slide images using buttons plus there is animation added.</p>
+
+            <a href="index.php#main_container">Click here</a>
+            <br/>
+            <br/>
+            <p>
+                Second enhancement is on my timetable in about page when you click on single unit, it displays modal.</p>
+
+            <a href="about.php#timetabl">Click here</a>
+            <br/>
+
+    </section>
+
 
     <h1>Enhancements Assignment 2</h1>
 
@@ -56,19 +43,19 @@
 
         <p>Data is saved to session storage and retrieved on credit card</p>
 
-        <a href="payment.html#openModal">Click here</a>
+        <a href="payment.php#openModal">Click here</a>
         <br/>
         <br/>
         <p>
             Second enhancement is on payment website where is credit card </p>
 
-        <a href="payment.html#openModal">Click here</a>
+        <a href="payment.php#openModal">Click here</a>
         <br/>
         <br/>
         <p>
             Third enhancement is when dynamic data is displayed on page </p>
 
-        <a href="enquire.html#info">Click here</a>
+        <a href="enquire.php#info">Click here</a>
         <br/>
 
     </section>

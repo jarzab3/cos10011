@@ -9,44 +9,13 @@
 
     <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
-    <title>Assignment 1 - Main page </title>
+    <title>Main page </title>
 
 </head>
 
 <body>
 
-<header>
-
-    <section class="topnav">
-
-        <table>
-            <tr>
-                <td id="special_td"><img src="images/logo.png" alt="logo" height="70" width="250"/></td>
-                <td id="current">
-                    <a href="index.html">Main</a>
-                </td>
-
-                <td>
-                    <a href="enquire.html">Enquire</a>
-                </td>
-
-                <td>
-                    <a href="product.html">Product</a>
-                </td>
-
-                <td>
-                    <a href="about.php">About</a>
-                </td>
-
-                <td>
-                    <a href="enhancements2.html">Enhancements</a>
-                </td>
-            </tr>
-        </table>
-    </section>
-</header>
-<br/>
-<hr/>
+<?php include 'header.inc';?>
 
 <main id="main_container">
 
