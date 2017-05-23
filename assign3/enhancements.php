@@ -7,9 +7,12 @@
     <meta name="author" content="Adam Jarzebak"  />
 
     <link rel = "stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="images/icon_title.png" sizes="16x16">
 
 
-    <title>The enhancements</title>
+
+    <title>SwinCruise - Ehancements</title>
+
 
 </head>
 
@@ -19,7 +22,7 @@
 
 <main>
 
-    <h1>Enhancements</h1>
+    <h1>Enhancements - Assignments 1 </h1>
 
     <section class="align_center">
 
@@ -33,23 +36,24 @@
 
             <a href="about.php#timetabl">Click here</a>
             <br/>
+        <hr/>
 
     </section>
 
 
-    <h1>Enhancements Assignment 2</h1>
+    <h1>Enhancements - Assignment 2</h1>
 
     <section class="align_center">
 
         <p>Data is saved to session storage and retrieved on credit card</p>
 
-        <a href="payment.php#openModal">Click here</a>
+        <a href="process_order.php#openModal">Click here</a>
         <br/>
         <br/>
         <p>
             Second enhancement is on payment website where is credit card </p>
 
-        <a href="payment.php#openModal">Click here</a>
+        <a href="process_order.php#openModal">Click here</a>
         <br/>
         <br/>
         <p>
@@ -57,8 +61,15 @@
 
         <a href="enquire.php#info">Click here</a>
         <br/>
+    <hr/>
+    </section>
+
+    <h1>Enhancements - Assignments 3 </h1>
+
+    <section class="align_center">
 
     </section>
+
 
 </main>
 <br/>

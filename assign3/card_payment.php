@@ -7,11 +7,12 @@
     <meta name="author" content="Adam Jarzebak"/>
 
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link rel="icon" type="image/png" href="images/icon_title.png" sizes="16x16">
 
     <script src="scripts/part1.js"></script>
 
 
-    <title>payment</title>
+    <title>SwinCruise - Card Payment</title>
 
 </head>
 <body>
@@ -21,19 +22,19 @@
 
     <section id="card_payment_section">
 
-        <form id="payment_form" action="payment.php">
+        <form id="payment_form" action="process_order.php" novalidate="novalidate">
 
             <section class="test">
 
-                <input type="text" name="card_number" id="card_number" maxlength="20" placeholder="0000 00000 00000 00000"/>
-                <input type="text" name="card_name" id="card_name" maxlength="25" placeholder="John"/>
-                <input type="text" name="expires" id="expires" maxlength="10" placeholder="01/14"/>
+                <input type="text" name="card_number" id="card_number" maxlength="16" placeholder="0000000000000000000"/>
+                <input type="text" name="card_name" id="card_name" maxlength="50" placeholder="John Smith"/>
+                <input type="text" name="expires" id="expires" maxlength="5" placeholder="mm/yy" oninput="autofillSlash()"/>
                 <input type="text" name="cvv" id="cvv" maxlength="4" placeholder="CVV"/>
 
                 <select id="card_type" name="card_type">
-                    <option value="visa">Visa</option>
-                    <option value="mastercard">MasterCard</option>
-                    <option value="americanexpress">AmericanExperess</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="AmericanExpress">AmericanExperess</option>
                 </select>
 
                 <br/>

@@ -6,12 +6,13 @@
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Adam Jarzebak"  />
 
+    <link rel="icon" type="image/png" href="images/icon_title.png" sizes="16x16">
 
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+
     <script src="scripts/part1.js"></script>
 
-
-    <title>Assignment_2 - The enquire website</title>
+    <title>SwinCruise - Enquires</title>
 
 </head>
 
@@ -19,14 +20,13 @@
 
 <?php include 'header.inc';?>
 
-
 <main id="main_container">
 
     <section class="style_form">
 
         <h2>Make an enquiry</h2>
 
-        <form id="enquire_form" action="payment.php">
+        <form id="enquire_form" action="process_order.php" novalidate="novalidate">
 
             <label for="fname">First Name</label>
 
@@ -142,19 +142,19 @@
                         <tr>
                             <th>
                                 <label for="extra1">Outside Cabin</label>
-                                <input type="checkbox" id="extra1" name="extra1" value="extra1"/>
+                                <input class="extras_class" type="checkbox" id="extra1" name="extra1" value="Outside Cabin"/>
                             </th>
                             <th>
                                 <label for="extra2">Insurance</label>
-                                <input type="checkbox" id="extra2" name="extra2" value="extra2"/>
+                                <input class="extras_class" type="checkbox" id="extra2" name="extra2" value="Insurance"/>
                             </th>
                             <th>
                                 <label for="extra3">Transfer</label>
-                                <input type="checkbox" id="extra3" name="extra3" value="extra3"/>
+                                <input class="extras_class" type="checkbox" id="extra3" name="extra3" value="Transfer"/>
                             </th>
                             <th>
                                 <label for="extra4">Mini bar</label>
-                                <input type="checkbox" id="extra4" name="extra4" value="extra4"/>
+                                <input class="extras_class" type="checkbox" id="extra4" name="extra4" value="Mini bar"/>
 
                             </th>
                         </tr>

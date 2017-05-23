@@ -1,0 +1,35 @@
+Required fields to be sent for database in assignment 3
+
+- First name 
+- Last name
+- Email address
+- Street address
+- Suburb 
+- State
+- Postcode
+- Preffered contact
+- Phone number
+- Product
+- Prodact features
+
+------
+
+- Quantity of product
+- Selected state
+- Credit card type
+- Name on credit card
+- Credit card number
+- Credit card expiry date
+- CVV
+
+------
+
+Additional:
+
+- order_id
+- order_cost
+- order_time(automatically generated)
+- order_status  PENDING | FULFILLED | PAID | ARCHIVED. (When an order is created its status is always set to PENDING.)
+
+
+

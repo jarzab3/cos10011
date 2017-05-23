@@ -7,11 +7,13 @@
     <meta name="author" content="Adam Jarzebak"/>
 
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link rel="icon" type="image/png" href="images/icon_title.png" sizes="16x16">
+
 
     <script src="scripts/part1.js"></script>
 
 
-    <title>Payment</title>
+    <title>SwinCruise - Payment</title>
 
 </head>
 <body>
@@ -21,7 +23,7 @@
 
     <section class="style_form">
 
-        <form id="pay_confirm" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+        <form id="pay_confirm" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php" novalidate="novalidate">
             <fieldset>
                 <legend>Is there all good?</legend>
                 <table id="payment_table">
@@ -35,6 +37,7 @@
                             <p>Cruise: <span id="c_cruise"></span></p>
                             <p>No of people: <span id="c_noPeople"></span></p>
                             <p>Total Cost: $<span id="c_confirm_cost"></span></p>
+                            <p>Exras: <span id="c_confirm_extras"></span></p>
                         </td>
                         <td>
 
@@ -53,12 +56,14 @@
                 <input type="hidden" name="card type" id="p_card_type"/>
 
 
+                <input type="hidden" name="firstname" id="p_firstname"/>
                 <input type="hidden" name="lastname" id="p_lastname"/>
                 <input type="hidden" name="telephone" id="p_number"/>
                 <input type="hidden" name="postcode" id="p_postcode"/>
                 <input type="hidden" name="cruise" id="p_cruise"/>
                 <input type="hidden" name="No of People" id="p_noPeople"/>
                 <input type="hidden" name="total cost" id="p_confirm_cost"/>
+                <input type="hidden" name="extras" id="p_confirm_extras"/>
 
                 <br/>
                 <br/>
@@ -73,47 +78,6 @@
                 </section>
             </fieldset>
         </form>
-
-        <section id="openModal" class="modalDialog1">
-            <section><a href="#close" title="Close" class="close">X</a>
-
-                <h1>Payment</h1>
-
-                <form id="payment_form" onsubmit="validate_pay()">
-
-                    <section class="test">
-
-                        <input type="text" name="cardNumber" id="cardNumber" maxlength="16"
-                               placeholder="0000 00000 00000 00000"/>
-                        <input type="text" name="cname" id="cname" maxlength="25" placeholder="John Smith"/>
-                        <input type="text" name="expires" id="expires" maxlength="10" placeholder="01/14"/>
-                        <input type="text" name="cvv" id="cvv" maxlength="4" placeholder="CVV"/>
-
-                        <select id="ctype" name="ctype">
-                            <option value="visa">Visa</option>
-                            <option value="mastercard">MasterCard</option>
-                            <option value="americanexpress">AmericanExperess</option>
-                        </select>
-
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-
-                    </section>
-
-                    <section id="buttons_pay_page">
-            <span>
-            <input type="submit" value="Confirm Booking" id="card_confirmBooking"/>
-           <input type="reset" value="Reset" id="card_cancel"/>
-
-           </span>
-                    </section>
-
-                </form>
-
-            </section>
-        </section>
 
     </section>
 

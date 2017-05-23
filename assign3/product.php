@@ -8,8 +8,9 @@
 
     <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
 
+    <link rel="icon" type="image/png" href="images/icon_title.png" sizes="16x16">
 
-    <title>Product</title>
+    <title>SwinCruise - Product</title>
 
 </head>
 <body>

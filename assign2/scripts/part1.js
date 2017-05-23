@@ -362,7 +362,7 @@ function init() {
         regForm.onsubmit = validate;
     }
 
-    if (window.location.pathname == '/cos10011/s101304282/assign2/payment.php') {
+    if (window.location.pathname == '/cos10011/s101304282/assign2/process_order.php') {
 
         getBooking();
         document.getElementById("cancelButton").addEventListener("click", cancelBooking);
