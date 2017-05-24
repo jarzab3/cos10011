@@ -48,7 +48,6 @@
             <span>
 
                 <input type="submit" value="Confirm Booking" id="card_confirmBooking"/>
-                <!--<button type="submit" id="card_confirmBooking"><a href="payment.html">Confirm Payment</a></button>-->
 
                 <input type="reset" value="Reset" id="card_cancel"/>
 

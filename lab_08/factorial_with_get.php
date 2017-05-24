@@ -19,8 +19,8 @@ include ("mathfunctions.php")
 
 <?php
 
-    if(isset($_GET["number"])){
-    $num = $_GET["number"];
+    if(isset($_POST["number"])){
+    $num = $_POST["number"];
 
     if (isPositiveInteger($num)){
     echo "<p>", $num, "! is", factorial ($num), ".</p>";

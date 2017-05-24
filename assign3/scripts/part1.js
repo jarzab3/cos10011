@@ -12,16 +12,16 @@ function updateCruisePrice() {
 
     var cruise = document.getElementById("productService").value;
 
-    if (cruise == "op1") {
+    if (cruise == "Norway") {
         document.getElementById("info").innerHTML = "<p>You selected: <strong>Awesome Cruise</strong> from our product range</p>";
         document.getElementById("info1").innerHTML = "<p>Price: $2323 p.p.  &nbsp;<sup>Childer 20% off</sup></p>";
-    } else if (cruise == "op2") {
+    } else if (cruise == "Greece") {
         document.getElementById("info").innerHTML = "<p>You selected: <strong>Princess Cruises</strong> from our product range</p>";
         document.getElementById("info1").innerHTML = "<p>Price: $435 p.p.&nbsp;<sup>Childer 20% off</sup></p>";
-    } else if (cruise == "op3") {
+    } else if (cruise == "Africa") {
         document.getElementById("info").innerHTML = "<p>You selected: <strong>Cruise Direct </strong> from our product range</p>";
         document.getElementById("info1").innerHTML = "<p>Price: $2324 p.p.&nbsp;<sup>Childer 20% off</sup></p>";
-    } else if (cruise == "op4") {
+    } else if (cruise == "Antarctica") {
         document.getElementById("info").innerHTML = "<p>You selected: <strong>Fred Olsen</strong> from our product range</p>";
         document.getElementById("info1").innerHTML = "<p>Price: $1224 p.p.&nbsp;<sup>Childer 20% off</sup></p>";
     } else {
@@ -113,7 +113,6 @@ function getExtras() {
     }
 
     return extras;
-
 }
 
 function totalCost(noPeople, noPeople1, cruise, extras) {
@@ -122,16 +121,16 @@ function totalCost(noPeople, noPeople1, cruise, extras) {
     var total = 0;
 
     switch (cruise) {
-        case "op1":
+        case "Norway":
             price = 2323;
             break;
-        case "op2":
+        case "Greece":
             price = 435;
             break;
-        case "op3":
+        case "Africa":
             price = 2324;
             break;
-        case "op4":
+        case "Antarctica":
             price = 1224;
             break;
         default:
@@ -147,7 +146,9 @@ function totalCost(noPeople, noPeople1, cruise, extras) {
     return total;
 }
 
-function validate() {
+function validate(debug) {
+    //Debugging value, if true then do not validate
+    var debug = true;
 
     var errorMsg = '';
     var prefContact = 'none';
@@ -215,21 +216,28 @@ function validate() {
         result = false;
     }
 
-    if (errorMsg != '') {
+    if (!debug && (errorMsg != '')) {
         alert(errorMsg);
     }
 
-    if (errorMsg == '') {
+    if (!debug && errorMsg == '') {
         result = validatePostcode(state, postcode);
     }
 
     totalPrice = totalCost(noPeople, noPeople1, cruise, extras);
     prefContact = getPreferredContact();
-    extras = getExtras();
+    // extras = getExtras();
+
 
     if (errorMsg == '') {
         storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number,
-            prefContact, totalPrice, extras);
+            prefContact, totalPrice);
+    }
+
+    if (debug){
+        storeData(firstname, lastname, email, street, suburb, state, postcode, cruise, noPeople, noPeople1, number,
+            prefContact, totalPrice);
+        result = true;
     }
 
     return result;
@@ -256,7 +264,6 @@ function autofillSlash(){
 }
 
 function validate_pay() {
-
     var errorMsg = "";
     var result = true;
 
@@ -382,7 +389,7 @@ function storeData(firstname, lastname, email, street, suburb, state, postcode, 
     sessionStorage.number = number;
     sessionStorage.preferredContact = preferredContact;
     sessionStorage.totalPrice = totalPrice;
-    sessionStorage.extras = extras;
+    // sessionStorage.extras = extras;
 
 }
 
@@ -399,16 +406,16 @@ function getBooking() {
     if (sessionStorage.first_name != undefined) {
         var cruise_full = "";
         switch (sessionStorage.cruise) {
-            case "op1":
+            case "Norway":
                 cruise_full = "Norway";
                 break;
-            case "op2":
+            case "Greece":
                 cruise_full = "Greece";
                 break;
-            case "op3":
+            case "Africa":
                 cruise_full = "Africa";
                 break;
-            case "op4":
+            case "Antarctica":
                 cruise_full = "Antarctica";
                 break;
             default:
@@ -422,7 +429,7 @@ function getBooking() {
         document.getElementById("c_cruise").textContent = cruise_full;
         document.getElementById("c_noPeople").textContent = sessionStorage.totalPeople;
         document.getElementById("c_confirm_cost").textContent = sessionStorage.totalPrice;
-        document.getElementById("c_confirm_extras").textContent = sessionStorage.extras;
+        // document.getElementById("c_confirm_extras").textContent = sessionStorage.extras;
 
     }
 }
@@ -445,7 +452,7 @@ function prefill_form() {
         document.getElementById("p_cruise").value = sessionStorage.cruise;
         document.getElementById("p_noPeople").value = sessionStorage.totalPeople;
         document.getElementById("p_confirm_cost").value = sessionStorage.totalPrice;
-        document.getElementById("p_confirm_extras").value = sessionStorage.extras;
+        // document.getElementById("p_confirm_extras").value = sessionStorage.extras;
     }
     if (sessionStorage.card_number != undefined) {
         document.getElementById("p_card_number").value = sessionStorage.card_number;

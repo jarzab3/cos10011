@@ -26,17 +26,19 @@
 
         <h2>Make an enquiry</h2>
 
-        <form id="enquire_form" action="process_order.php" novalidate="novalidate">
+<!--        <form id="regform" method="post" action="processbooking.php" novalidate="novalidate">-->
+
+        <form id="enquire_form"  method="post" action="process_order.php" novalidate="novalidate">
 
             <label for="fname">First Name</label>
 
-            <input type="text" name= "First Name" id="fname" maxlength="25"/>
+            <input type="text" name= "first_name" id="fname" maxlength="25"/>
 
             <label for="lname">Last Name</label>
-            <input type="text" name= "Last Name" id="lname" maxlength="25"/>
+            <input type="text" name= "last_name" id="lname" maxlength="25"/>
 
             <label for="email1">Email</label>
-            <input type="email" name= "Email addresss" id="email1"/>
+            <input type="email" name= "email_address" id="email1"/>
 
             <br/>
             <br/>
@@ -47,13 +49,13 @@
 
             <fieldset>
                 <label for="saddress">Street address</label>
-                <input type="text" name="Address" id="saddress" maxlength="40"/>
+                <input type="text" name="street_address" id="saddress" maxlength="40"/>
 
                 <label for="suburb">Suburb/town</label>
-                <input type="text" name= "Suburb" id="suburb" maxlength="20"/>
+                <input type="text" name= "suburb" id="suburb" maxlength="20"/>
 
                 <label for="state">State</label>
-                <select id="state" name="State">
+                <select id="state" name="state">
                     <option value="none">Please select</option>
                     <option value="VIC">VIC</option>
                     <option value="NSW">NSW</option>
@@ -66,7 +68,7 @@
                 </select>
 
                 <label for="postcode">Postcode</label>
-                <input type="text" name= "Postcode" id="postcode" maxlength="4" placeholder="Postcode"/>
+                <input type="text" name= "postcode" id="postcode" maxlength="4" placeholder="Postcode"/>
 
             </fieldset>
 
@@ -95,16 +97,16 @@
             <br/>
 
             <label for="phoneNumber">Phone number</label>
-            <input type="text" name="Phone Number" id="phoneNumber" maxlength="10" placeholder="Phone number"/>
+            <input type="text" name="PhoneNumber" id="phoneNumber" maxlength="10" placeholder="Phone number"/>
             <br/>
 
             <label for="productService">Product/Service</label>
-            <select id="productService" name="Product/service" onchange="updateCruisePrice()">
+            <select id="productService" name="product_service" onchange="updateCruisePrice()">
                 <option value="none">Please select</option>
-                <option value="op1">Norway</option>
-                <option value="op2">Greece</option>
-                <option value="op3">Africa</option>
-                <option value="op4">Antarctica</option>
+                <option value="Norway">Norway</option>
+                <option value="Greece">Greece</option>
+                <option value="Africa">Africa</option>
+                <option value="Antarctica">Antarctica</option>
             </select>
 
             <section id="priceInfo">
@@ -119,13 +121,13 @@
                     <tr>
                         <th>Adults ( +18 years )</th>
                         <td>
-                            <input type="number" id="noPeople" value="0" size="1" min="0" max="21"/>
+                            <input type="number" name="noPeople" id="noPeople" value="0" size="1" min="0" max="21"/>
                         </td>
                     </tr>
                     <tr>
                         <th>Children (0 - 17 years )</th>
                         <td>
-                            <input type="number" id="noPeople1" value="0" size="1" min="0" max="21"/>
+                            <input type="number"  name="noPeople1" id="noPeople1" value="0" size="1" min="0" max="21"/>
                         </td>
                     </tr>
                 </table>
@@ -187,25 +189,10 @@
            <input type="reset" value="Reset"/>
            </span>
             </section>
-
         </form>
     </section>
 
-    <footer>
-        <hr/>
-        <p>
-            <strong>&#169;</strong>
-            <a  href="http://www.swinburne.edu.au/">
-                Swinburne Universty of Technology
-            </a>
-        </p>
-
-        <p id="email_style">  &#160;
-            &#160;
-            <strong>Mark up by:</strong> <a href="mailto:adam@jarzebak.eu">
-                Adam Jarzebak</a></p>
-
-    </footer>
+    <?php include 'footer.inc';?>
 
 </main>
 

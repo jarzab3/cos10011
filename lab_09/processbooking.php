@@ -15,7 +15,7 @@
 
 <?php
 
-function sanitise_input($data)
+function sanitise($data)
 {
     $data = trim($data);
     $data = stripslashes($data);
@@ -27,10 +27,9 @@ function sanitise_input($data)
 
 <?php
 
-
 if (isset($_POST["firstname"])) {
     $temp = $_POST["firstname"];
-    $firstname = sanitise_input($temp);
+    $firstname = sanitise($temp);
 } else {
 
     header ("location: register.html");
@@ -38,27 +37,27 @@ if (isset($_POST["firstname"])) {
 
 if (isset($_POST["lastname"])) {
     $lastname = $_POST["lastname"];
-    $lastname = sanitise_input($lastname);
+    $lastname = sanitise($lastname);
 }
 
 if (isset($_POST["age"])) {
     $age = $_POST["age"];
-    $age = sanitise_input($age);
+    $age = sanitise($age);
 }
 
 if (isset($_POST["partySize"])) {
     $partySize = $_POST["partySize"];
-    $partySize = sanitise_input($partySize);
+    $partySize = sanitise($partySize);
 }
 
 if (isset($_POST["food"])) {
     $preference = $_POST["food"];
-    $preference = sanitise_input($preference);
+    $preference = sanitise($preference);
 }
 
 if (isset($_POST["species"])) {
     $species = $_POST["species"];
-    $species = sanitise_input($species);
+    $species = sanitise($species);
 } else {
 
     $species = "Unknown species";
@@ -93,6 +92,7 @@ else if ($age <= 10 && $age >= 10000){
 
 if ($errmsg != "") {
     echo "<p>$errmsg</p>";
+
 } else {
 
 
